@@ -34,9 +34,9 @@ publishDir = "docs"
     weight = 11
 
   [[menu.main]]
-    identifier = "resume"
-    name = "resume"
-    url = "https://github.com/mrprofessor/resume/blob/master/rudra_narayan_resume.pdf/"
+    identifier = "collections"
+    name = "collections"
+    url = "/collections/"
     weight = 12
 
 
@@ -47,16 +47,17 @@ publishDir = "docs"
     weight = 10
 
   [[menu.secondary]]
-    identifier = "logs"
-    name = "logs"
-    url = "/logs/"
+    identifier = "resume"
+    name = "resume"
+    url = "https://github.com/mrprofessor/resume/blob/master/rudra_narayan_resume.pdf/"
     weight = 11
 
   [[menu.secondary]]
-    identifier = "collections"
-    name = "collections"
-    url = "collections"
+    identifier = "logs"
+    name = "logs"
+    url = "/logs/"
     weight = 12
+
 
 [params]
   author = "Rudra Kar"
