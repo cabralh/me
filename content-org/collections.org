@@ -4,10 +4,66 @@
 
 
 * collections
-** Placeholder #1 :keyboards:
+** IBM Model F 5150(XT) :keyboards:
    :PROPERTIES:
-   :EXPORT_FILE_NAME: placeholder-1
-   :EXPORT_DATE: 2021-08-15
+   :EXPORT_FILE_NAME: ibm_model_f_5150_xt
+   :EXPORT_DATE: 2021-11-21
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_f_xt.jpg
+   :EXPORT_HUGO_DRAFT: false
    :END:
 
-A place holder post. lorem ipsum etc.
+It is the first vintage keyboard I have acquired. Unfortunately, it was broken into pieces on its way to me from Florida. However, with a bit of tender love and care, it was up and running in a few hours.
+
+I don't know the exact manufacturing date of the board, but there is a sticker that says it was repaired in 1989. Most IBM 5150 keyboards were manufactured before 1984, So it is at least 37 years old in 2021.
+
+I got a Soarer's converter along with this keyboard. With a bit of remapping, I was able to replace it with my Drop CTRL as my new daily driver.
+
+** IBM Model F 3178 :keyboards:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: ibm_model_f_3178
+   :EXPORT_DATE: 2021-11-20
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_f_3178.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+No description yet
+
+** IBM Model F62 Kishaver reproduction :keyboards:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: ibm_f62_reproduction
+   :EXPORT_DATE: 2021-11-20
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_f62_reproduction.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+No description yet
+
+** IBM Model M122(BattleShip) :keyboards:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: ibm_model_m_122_battleship
+   :EXPORT_DATE: 2021-08-16
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_m_122_battleship.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+No description yet
+
+** IBM Model M122(BattleCruiser) :keyboards:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: ibm_model_m_122_battlecruiser
+   :EXPORT_DATE: 2021-08-17
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_m_122_battlecruiser.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+No description yet
+
+** IBM Model 3278 (Beamspring) :keyboards:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: ibm_3278
+   :EXPORT_DATE: 2021-08-20
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_3278.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+No description yet
