@@ -1,19 +1,27 @@
 {{ define "main" }}
-	<main>
-		{{ if (or (eq .Page.Name "Posts") (.Page.IsHome)) }}
-			{{ partial "post-description.html" }}
-		{{ else if (eq .Page.Name "Logs") }}
-			{{ partial "log-description.html" }}
-		{{ else if (eq .Page.Name "Collections") }}
-			{{ partial "collection-description.html" }}
-		{{ end }}
+    <main>
+        {{ if (or (eq .Page.Name "Posts") (.Page.IsHome)) }}
+            {{ partial "post-description.html" }}
+        {{ else if (eq .Page.Name "Logs") }}
+            {{ partial "log-description.html" }}
+        {{ else if (eq .Page.Name "Collections") }}
+            {{ partial "collection-description.html" }}
+        {{ end }}
 
-		<div class="blog-list">
-			{{ range .Paginator.Pages }}
-				{{ .Render "summary" }}
+        <div class="blog-list">
+			{{ if (eq .Page.Name "Collections") }}
+				<div class="collection-board">
+					{{ range .Paginator.Pages }}
+						{{ .Render "collection-summary" }}
+					{{ end }}
+				</div>
+			{{ else }}
+                {{ range .Paginator.Pages }}
+            		{{ .Render "summary" }}
+                {{ end }}
 			{{ end }}
-		</div>
-			<!-- {{ partial "pagination.html" . }} -->
-	</main>
-	<!-- {{ partial "sidebar.html" . }} -->
+        </div>
+        <!-- {{ partial "pagination.html" . }} -->
+    </main>
+    <!-- {{ partial "sidebar.html" . }} -->
 {{ end }}

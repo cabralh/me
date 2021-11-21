@@ -13,7 +13,7 @@
 
 
 	{{ if eq .IsPage true }}
-		{{ if (or (eq .Section "posts") (eq .Section "logs")) }}
+		{{ if (or (eq .Section "posts") (eq .Section "logs") (eq .Section "collections")) }}
 			{{ partial "comments.html" }}
 		{{ end }}
 	{{ end }}

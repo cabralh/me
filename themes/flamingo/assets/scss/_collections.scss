@@ -1,0 +1,49 @@
+.collection-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.collection-card img {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+.collection-card {
+    flex: 0 1 96%;
+    margin-bottom: 1rem;
+}
+
+
+// .card {
+//     background: white;
+//     margin-bottom: 2em;
+// }
+
+// .card-content {
+//     padding: 1.4em;
+// }
+
+// .card-content h2 {
+//     margin-top: 0;
+//     margin-bottom: .5em;
+//     font-weight: bold;
+// }
+
+// .card-content p {
+//     font-size: 80%;
+// }
+
+// /* Flexbox stuff */
+
+// .cards {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+// }
+
+// .card {
+//     flex: 0 1 24%;
+// }
