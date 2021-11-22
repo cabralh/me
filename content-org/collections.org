@@ -18,6 +18,34 @@ I don't know the exact manufacturing date of the board, but there is a sticker t
 
 I got a Soarer's converter along with this keyboard. With a bit of remapping, I was able to replace it with my Drop CTRL as my new daily driver.
 
+** IBM Model 3278 (Beamspring) :keyboards:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: ibm_3278
+   :EXPORT_DATE: 2021-11-22
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_3278.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+
+At the time of writting, this old beamer is the prize of my collection. I have
+acquired this from a DT member who let it go for a fair enough price. They were
+kind enough to send me an metal(iron) door with the board too.
+
+The board wasn't in a terrible condition when I got it. The foam had turned
+into sticky goo, which needed some cleaning up. I manually cut a craft store
+foam and replaced it.
+
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/ibm_3278_foam.jpg" />
+  </div>
+#+END_EXPORT
+
+The case needs powder-coating, and I only stripped it halfway. Not going to
+lie; I do like how it looks now. In the future, I have plans to paint it either
+olive-green or matte black.
+
 ** IBM Model F 3178 :keyboards:
    :PROPERTIES:
    :EXPORT_FILE_NAME: ibm_model_f_3178
@@ -28,7 +56,7 @@ I got a Soarer's converter along with this keyboard. With a bit of remapping, I 
 
 No description yet
 
-** IBM Model F62 Kishaver reproduction :keyboards:
+** IBM Model F62 reproduction :keyboards:
    :PROPERTIES:
    :EXPORT_FILE_NAME: ibm_f62_reproduction
    :EXPORT_DATE: 2021-11-20
@@ -58,12 +86,3 @@ No description yet
 
 No description yet
 
-** IBM Model 3278 (Beamspring) :keyboards:
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: ibm_3278
-   :EXPORT_DATE: 2021-08-20
-   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_3278.jpg
-   :EXPORT_HUGO_DRAFT: false
-   :END:
-
-No description yet

@@ -9,17 +9,17 @@
         {{ end }}
 
         <div class="blog-list">
-			{{ if (eq .Page.Name "Collections") }}
-				<div class="collection-board">
-					{{ range .Paginator.Pages }}
-						{{ .Render "collection-summary" }}
-					{{ end }}
-				</div>
-			{{ else }}
+            {{ if (eq .Page.Name "Collections") }}
+                <div class="collection-board">
+                    {{ range .Paginator.Pages }}
+                        {{ .Render "collection-summary" }}
+                    {{ end }}
+                </div>
+            {{ else }}
                 {{ range .Paginator.Pages }}
-            		{{ .Render "summary" }}
+                    {{ .Render "summary" }}
                 {{ end }}
-			{{ end }}
+            {{ end }}
         </div>
         <!-- {{ partial "pagination.html" . }} -->
     </main>
