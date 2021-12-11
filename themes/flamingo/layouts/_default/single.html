@@ -20,7 +20,9 @@
 
 			<div class="blog-post-content">
 				{{ if .Params.Image }}
-					<img src={{ .Params.Image }} >
+					<div class="post-image">
+						<img src={{ .Params.Image }} loading="lazy">
+					</div>
 				{{ end }}
 				{{ .Content }}
 			</div>
