@@ -1,6 +1,5 @@
 #+hugo_base_dir: ../
 #+hugo_section: collections
-#+OPTIONS: toc:2
 
 
 * collections
@@ -12,11 +11,16 @@
    :EXPORT_HUGO_DRAFT: false
    :END:
 
-This is the first vintage keyboard I have acquired. Unfortunately, it was broken into pieces on its way to me from Florida. However, with a bit of tender love and care, it was up and running in a few hours.
+This is the first vintage keyboard I have acquired. Unfortunately, it was broken
+into pieces on its way to me from Florida. However, with a bit of tender love and
+care, it was up and running in a few hours.
 
-I don't know the exact manufacturing date of the board, but there is a sticker that says it was repaired in 1989. Most IBM 5150 keyboards were manufactured before 1984, So it is at least 37 years old in 2021.
+I don't know the exact manufacturing date of the board, but there is a sticker
+that says it was repaired in 1989. Most IBM 5150 keyboards were manufactured
+before 1984, So it is at least 37 years old in 2021.
 
-I got a Soarer's converter along with this keyboard. With a bit of remapping, I was able to replace it with my Drop CTRL as my new daily driver.
+I got a Soarer's converter along with this keyboard. With a bit of remapping, I
+was able to replace it with my Drop CTRL as my new daily driver.
 
 ** IBM Model 3278 (Beamspring) :keyboards:
    :PROPERTIES:
@@ -45,6 +49,9 @@ foam and replaced it.
 The case needs powder-coating, and I only stripped it halfway. Not going to
 lie; I do like how it looks now. In the future, I have plans to paint it either
 olive-green or matte black.
+
+I got Pandrew's version of Xwhatsit controller and a solenoid driver to replace
+the original controller. After a bit hacking around with qmk, I got it working.
 
 ** IBM Model F 3178 :keyboards:
    :PROPERTIES:
@@ -86,3 +93,58 @@ No description yet
 
 No description yet
 
+
+** IBM Model F AT :keyboards:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: ibm_model_f_at
+   :EXPORT_DATE: 2021-12-11
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_f_at.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+*** History
+This keyboard originally came with IBM Personal Computer AT (PC/AT). This
+computer was released in 1984, and IBM has produced over 100,000 units before
+discontinuing them in 1987. Some sources say that the *AT* stands for *Advanced Technology*.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/ibm_model_f_at_units.png" loading="lazy"/>
+    <span class="img-description"> IBM Model F AT key units </span>
+  </div>
+#+END_EXPORT
+
+This model was a successor to the very famous and now weird XT layout. The IBM PS/2 (Personal System/2) was the successor to the IBM PC/AT, and with it came the venerable model M keyboard. The model M keyboard introduced the very layout that is being used worldwide even today.
+
+
+*** Acquisition & Restoration
+
+I have acquired this keyboard from eBay for a fair price. It was super dirty and was full of gunk. The barrel plate has rusty, and there were a bunch of dead spiders inside. The keycaps were quite filthy too.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/ibm_model_f_at_assembly_front.jpg" loading="lazy"/>
+    <span class="img-description"> Dirty assembly </span>
+  </div>
+#+END_EXPORT
+
+The Foam was rotten and kept falling out the whole time. However, the back rainbow plate was pristine, and there weren't any rust spots on it.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/ibm_model_f_at_assembly_back.jpg" loading="lazy"/>
+    <span class="img-description"> Model F AT rainbow plate </span>
+  </div>
+#+END_EXPORT
+
+I removed the caps and barrels and washed them in warm soapy water. Then scrubbed the barrel plate but couldn't repaint it because I ran out of spray paints by then. Replaced the rotten foam with a hand-made 2mm one, and reassembled everything.
+
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/ibm_model_f_at_connector_chain.jpg" loading="lazy"/>
+    <span class="img-description"> AT -> PS/2 -> USB (A) -> USB (C) </span>
+  </div>
+#+END_EXPORT
+
+It was an absolute joy to use the keyboard on modern machines. It uses AT protocol, So using a passive AT to PS/2 converter would do the trick. Since I don't own a computer with a native PS/2 port, I daisy-chained an active PS/2 to USB (A) converter and then another Type A to Type C adapter to connect my Macbook Pro.
