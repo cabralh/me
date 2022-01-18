@@ -26,7 +26,7 @@ was able to replace it with my Drop CTRL as my new daily driver.
    :PROPERTIES:
    :EXPORT_FILE_NAME: ibm_3278
    :EXPORT_DATE: 2021-11-22
-   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_3278.jpg
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_3278_unrestored.jpg
    :EXPORT_HUGO_DRAFT: false
    :END:
 
@@ -35,20 +35,26 @@ At the time of writting, this old beamer is the prize of my collection. I have
 acquired this from a DT member who let it go for a fair enough price. They were
 kind enough to send me an metal(iron) door with the board too.
 
+Initially, I liked the battered look of the board, but after a while, I powder
+coated it to black. I couldn't find an "olive-green" or "matte-black" color,
+So I settled for Glossy black. It looked quite good in person but shines a lot
+on camera.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/ibm_3278_powdercoated.jpg" />
+  </div>
+#+END_EXPORT
+
 The board wasn't in a terrible condition when I got it. The foam had turned
 into sticky goo, which needed some cleaning up. I manually cut a craft store
 foam and replaced it.
-
 
 #+BEGIN_EXPORT HTML
   <div class="post-image">
     <img src="/images/collections/ibm_3278_foam.jpg" />
   </div>
 #+END_EXPORT
-
-The case needs powder-coating, and I only stripped it halfway. Not going to
-lie; I do like how it looks now. In the future, I have plans to paint it either
-olive-green or matte black.
 
 I got Pandrew's version of Xwhatsit controller and a solenoid driver to replace
 the original controller. After a bit hacking around with qmk, I got it working.
