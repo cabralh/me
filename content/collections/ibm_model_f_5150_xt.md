@@ -2,7 +2,7 @@
 title = "IBM Model F 5150(XT)"
 author = ["mrprofessor"]
 date = 2021-11-21
-tags = ["keyboards"]
+tags = ["keyboards", "ibm", "modelf", "xt"]
 draft = false
 image = "/images/collections/ibm_model_f_xt.jpg"
 +++
