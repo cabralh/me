@@ -43,6 +43,7 @@ on camera.
 #+BEGIN_EXPORT HTML
   <div class="post-image">
     <img src="/images/collections/ibm_3278_powdercoated.jpg" />
+    <span class="img-description"> Glossy black powdercoating </span>
   </div>
 #+END_EXPORT
 
@@ -53,11 +54,35 @@ foam and replaced it.
 #+BEGIN_EXPORT HTML
   <div class="post-image">
     <img src="/images/collections/ibm_3278_foam.jpg" />
+    <span class="img-description"> Handmade replacement foam </span>
   </div>
 #+END_EXPORT
 
-I got Pandrew's version of Xwhatsit controller and a solenoid driver to replace
-the original controller. After a bit hacking around with qmk, I got it working.
+I got [[https://github.com/purdeaandrei/CompactBeamSpring][Pandrew's version of the Xwhatsit controller]] to replace the original
+controller. I got Pandrew's solenoid driver too, and after a bit of hacking
+around with QMK, I got it working.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/ibm_3278_no_case.jpg" />
+    <span class="img-description"> Replacement controllers and solenoid </span>
+  </div>
+#+END_EXPORT
+
+There are some corrosions on the plate but I was told that they won't grow, so
+I didn't bother. There was a bit of rust on the switch springs, so I tried to
+take apart the switches to clean them but found them hard to disassemble and
+ultimately gave up. The rust doesn't affect the smoothness of the switches.
+
+I used the board for a week as my daily driver with the solenoid on. I wasn't
+very impressed with the heavy space bar as it tired my thumb after every 15
+minutes. Apart from that, this board is an absolute joy to have and is
+a thing of beauty.
+
+I love this board, and hopefully, it will be on my secondary machine for years
+to come, but right now, I will get back to my beloved [[/collections/ibm_model_f_at/][F AT]] and get some work
+done.
+
 
 ** IBM Model F 3178 :vintage:keyboards:ibm:modelf:
    :PROPERTIES:
