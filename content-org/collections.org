@@ -83,7 +83,6 @@ I love this board, and hopefully, it will be on my secondary machine for years
 to come, but right now, I will get back to my beloved [[/collections/ibm_model_f_at/][F AT]] and get some work
 done.
 
-
 ** IBM Model F 3178 :vintage:keyboards:ibm:modelf:
    :PROPERTIES:
    :EXPORT_FILE_NAME: ibm_model_f_3178
@@ -146,7 +145,6 @@ discontinuing them in 1987. Some sources say that the *AT* stands for *Advanced 
 
 This model was a successor to the very famous and now weird XT layout. The IBM PS/2 (Personal System/2) was the successor to the IBM PC/AT, and with it came the venerable model M keyboard. The model M keyboard introduced the very layout that is being used worldwide even today.
 
-
 *** Acquisition & Restoration
 
 I have acquired this keyboard from eBay for a fair price. It was super dirty and was full of gunk. The barrel plate has rusty, and there were a bunch of dead spiders inside. The keycaps were quite filthy too.
@@ -178,3 +176,57 @@ I removed the caps and barrels and washed them in warm soapy water. Then scrubbe
 #+END_EXPORT
 
 It was an absolute joy to use the keyboard on modern machines. It uses AT protocol, So using a passive AT to PS/2 converter would do the trick. Since I don't own a computer with a native PS/2 port, I daisy-chained an active PS/2 to USB (A) converter and then another Type A to Type C adapter to connect my Macbook Pro.
+
+** Zbrojovka Brno 262.5 :vintage:keyboards:zbrojokva:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: zbrojovka_brno_262_5
+   :EXPORT_DATE: 2022-02-17
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/zbrojovka_brno_262_5_front.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+*** History
+
+
+This board was manufactured by a Czechoslovakian company called [[http://www.zbrojovka-brno.cz/][Zbrojovka Brno]]
+in the late '80s. Zbrojovka Brno manufactured small arms, motor vehicles, and
+later typewriters and computers.
+
+This board was made in 1988, and it uses the Soviet-era [[https://www.tesla.cz/en/][Tesla]] hall effect
+switches.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/zbrojovka_brno_262_5_back.jpg" loading="lazy"/>
+    <span class="img-description"> Zbrojovka Brno 265.6 back </span>
+  </div>
+#+END_EXPORT
+
+*** Acquisition & Restoration
+
+It had been up for sale for more than a year on [[https://www.reddit.com/r/mechmarket/][r/mechmarket]], and I was lucky
+enough to snag it for a very fair price.  It took exactly a month to reach
+India from Czechia, and it did survive the trip.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/zbrojovka_brno_262_5_no_case.jpg" loading="lazy"/>
+    <span class="img-description"> Dirty/Rusty assembly </span>
+  </div>
+#+END_EXPORT
+
+The case and keycaps were quite good, however, the plate was rusty, and some of
+the switches were scratchy.  It took a good bit of force to take apart the
+switches from the plate too. Unfortunately, during that process, I scuffed a
+couple of switch stems.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/zbrojovka_brno_262_5_switches1.jpg" loading="lazy"/>
+    <span class="img-description"> Tesla hall effect switches </span>
+  </div>
+#+END_EXPORT
+
+I have planned to lube the switches and swap the rusty springs with the Cherry
+ones. The plate needs to be sanded and repainted. This board uses a DB25
+connector, so I need to find the pin layouts and make a converter for it.
