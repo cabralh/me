@@ -13,7 +13,7 @@
         <meta name="author" content="Rudra Kar">
 
         
-        <link rel="stylesheet" href="/scss/main.min.a08f0fee4a0b1959a8aebf8bbcfe5ddcccb3c571709631953dc77e4c06d0f6f0.css" media="screen">
+        <link rel="stylesheet" href="/scss/main.min.10ba8b23a39d58f5a15672b250b2c0b253ea4d6cc28261d999ed92bc808136d5.css" media="screen">
 
         
 
@@ -48,7 +48,7 @@
 
 
 
-<meta property="og:updated_time" content=2019-10-12T00:00:00&#43;0530 />
+<meta property="og:updated_time" content=2019-10-12T00:00:00Z />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href="https://rudra.dev/sitemap.xml" />
@@ -63,8 +63,8 @@
 
 <meta property="og:type" content="article" />
 <meta property="article:publisher" content="https://github.com/mrprofessor" />
-<meta property="og:article:published_time" content=2019-10-12T00:00:00&#43;0530 />
-<meta property="article:published_time" content=2019-10-12T00:00:00&#43;0530 />
+<meta property="og:article:published_time" content=2019-10-12T00:00:00Z />
+<meta property="article:published_time" content=2019-10-12T00:00:00Z />
 
 
     <meta property="og:article:author" content="Rudra kar" />
@@ -226,14 +226,14 @@ Neovim&rsquo;s floating window and I realized that I have been(subconsciously)
 wanting this feature for a really long time. This plugin lets me open my
 terminal, restart my server, close the terminal and get back to my
 editor with a few keystrokes.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#888">  &#34; Float baby float</span><span style="color:#f00;background-color:#faa">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim"><span style="color:#888">  &#34; Float baby float</span><span style="color:#f00;background-color:#faa">
 </span><span style="color:#f00;background-color:#faa"></span>  Plugin <span style="background-color:#fff0f0">&#39;voldikss/vim-floaterm&#39;</span><span style="color:#f00;background-color:#faa">
 </span></code></pre></div><p>I have also remapped my <code>&lt;leader&gt;t</code> to toggle the floating terminal.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  noremap  &lt;leader&gt;t  :FloatermToggle&lt;CR&gt;i<span style="color:#f00;background-color:#faa">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  noremap  &lt;leader&gt;t  :FloatermToggle&lt;CR&gt;i<span style="color:#f00;background-color:#faa">
 </span><span style="color:#f00;background-color:#faa"></span>  noremap! &lt;leader&gt;t  &lt;Esc&gt;:FloatermToggle&lt;CR&gt;i<span style="color:#f00;background-color:#faa">
 </span><span style="color:#f00;background-color:#faa"></span>  tnoremap &lt;leader&gt;t  &lt;C-\&gt;&lt;C-n&gt;:FloatermToggle&lt;CR&gt;<span style="color:#f00;background-color:#faa">
 </span></code></pre></div><p>I have resized the terminal window and set the transparency to zero.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  <span style="color:#080;font-weight:bold">let</span> g:floaterm_width = <span style="color:#60e;font-weight:bold">100</span><span style="color:#f00;background-color:#faa">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  <span style="color:#080;font-weight:bold">let</span> g:floaterm_width = <span style="color:#60e;font-weight:bold">100</span><span style="color:#f00;background-color:#faa">
 </span><span style="color:#f00;background-color:#faa"></span>  <span style="color:#080;font-weight:bold">let</span> g:floaterm_winblend = <span style="color:#60e;font-weight:bold">0</span><span style="color:#f00;background-color:#faa">
 </span></code></pre></div><p>Time for some action then! Let&rsquo;s quickly run a python script without
 bothering to leave the window.</p>

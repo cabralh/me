@@ -13,7 +13,7 @@
         <meta name="author" content="Rudra Kar">
 
         
-        <link rel="stylesheet" href="/scss/main.min.a08f0fee4a0b1959a8aebf8bbcfe5ddcccb3c571709631953dc77e4c06d0f6f0.css" media="screen">
+        <link rel="stylesheet" href="/scss/main.min.10ba8b23a39d58f5a15672b250b2c0b253ea4d6cc28261d999ed92bc808136d5.css" media="screen">
 
         
 
@@ -48,7 +48,7 @@
 
 
 
-<meta property="og:updated_time" content=2019-05-03T00:00:00&#43;0530 />
+<meta property="og:updated_time" content=2019-05-03T00:00:00Z />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href="https://rudra.dev/sitemap.xml" />
@@ -63,8 +63,8 @@
 
 <meta property="og:type" content="article" />
 <meta property="article:publisher" content="https://github.com/mrprofessor" />
-<meta property="og:article:published_time" content=2019-05-03T00:00:00&#43;0530 />
-<meta property="article:published_time" content=2019-05-03T00:00:00&#43;0530 />
+<meta property="og:article:published_time" content=2019-05-03T00:00:00Z />
+<meta property="article:published_time" content=2019-05-03T00:00:00Z />
 
 
     <meta property="og:article:author" content="Rudra kar" />
@@ -254,7 +254,7 @@ for plugin management.</p>
 <h2 id="syntax-highlighting">Syntax Highlighting</h2>
 <p>Out of the box vim/nvim supports syntax highlighting for major
 programming languages.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">  ls /usr/share/vim/vim80/syntax/
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">  ls /usr/share/vim/vim80/syntax/
 </code></pre></div><p>
 <a
     href="https://github.com/mxw/vim-jsx"
@@ -274,7 +274,7 @@ plugin for vim.
  provides
 better syntax highlighting and code folding support compared to the
 default one.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  Plugin <span style="background-color:#fff0f0">&#39;mxw/vim-jsx&#39;</span><span style="color:#f00;background-color:#faa">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  Plugin <span style="background-color:#fff0f0">&#39;mxw/vim-jsx&#39;</span><span style="color:#f00;background-color:#faa">
 </span><span style="color:#f00;background-color:#faa"></span>  Plugin <span style="background-color:#fff0f0">&#39;pangloss/vim-javascript&#39;</span><span style="color:#f00;background-color:#faa">
 </span></code></pre></div><p>But It is yet to add <code>jsx</code> to its inventory. Also there are some
 javascript specific plugins that makes syntax highlighting much better.</p>
@@ -292,10 +292,10 @@ those annoying red lines on the editor the moment they add a newline.</p>
 nice plugin that asynchronously checks for syntatical errors in the
 code. It supports mnay language specific linters and formatters. ALE
 also lets people configure the signs for errors and warnings.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  Plugin <span style="background-color:#fff0f0">&#39;w0rp/ale&#39;</span><span style="color:#f00;background-color:#faa">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  Plugin <span style="background-color:#fff0f0">&#39;w0rp/ale&#39;</span><span style="color:#f00;background-color:#faa">
 </span></code></pre></div><p>For JS/React development to add <code>eslint</code> as a linter and <code>prettier</code> I
 added this to my vimrc</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  <span style="color:#080;font-weight:bold">let</span> g:ale_linters = {<span style="color:#f00;background-color:#faa">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  <span style="color:#080;font-weight:bold">let</span> g:ale_linters = {<span style="color:#f00;background-color:#faa">
 </span><span style="color:#f00;background-color:#faa"></span>    \ <span style="background-color:#fff0f0">&#39;javascript&#39;</span>: [<span style="background-color:#fff0f0">&#39;eslint&#39;</span>],<span style="color:#f00;background-color:#faa">
 </span><span style="color:#f00;background-color:#faa"></span>    \}<span style="color:#f00;background-color:#faa">
 </span><span style="color:#f00;background-color:#faa">
@@ -304,7 +304,7 @@ added this to my vimrc</p>
 </span><span style="color:#f00;background-color:#faa"></span>    \ }<span style="color:#f00;background-color:#faa">
 </span></code></pre></div><p>I also mapped <code>leader+d</code> as my ale fixer and configured to format each
 time I save the file.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  <span style="color:#080;font-weight:bold">let</span> g:ale_fix_on_save = <span style="color:#60e;font-weight:bold">1</span><span style="color:#f00;background-color:#faa">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  <span style="color:#080;font-weight:bold">let</span> g:ale_fix_on_save = <span style="color:#60e;font-weight:bold">1</span><span style="color:#f00;background-color:#faa">
 </span><span style="color:#f00;background-color:#faa"></span>  nmap &lt;leader&gt;d &lt;Plug&gt;(ale_fix)<span style="color:#f00;background-color:#faa">
 </span></code></pre></div><h2 id="autocompletion">Autocompletion</h2>
 <p>Auto completion in vim is not as good as any modern IDE but
@@ -338,7 +338,7 @@ uncommenting code.
 
 definitely going to save you a few additional key-presses a day and
 being a vimmer is all about that.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  Plugin <span style="background-color:#fff0f0">&#39;scrooloose/nerdcommenter&#39;</span><span style="color:#f00;background-color:#faa">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vim" data-lang="vim">  Plugin <span style="background-color:#fff0f0">&#39;scrooloose/nerdcommenter&#39;</span><span style="color:#f00;background-color:#faa">
 </span></code></pre></div><h2 id="conclusion">Conclusion</h2>
 <p>With vim it&rsquo;s hard to find an universal config that suits everyone. It&rsquo;s
 always solving one problem at a time that led me here. This is

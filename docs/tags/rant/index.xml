@@ -6,11 +6,11 @@
     <description>Recent content in rant on rudra kar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0530</lastBuildDate><atom:link href="https://rudra.dev/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rudra.dev/tags/rant/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GatsbyJs: An overkill for a static site generator</title>
       <link>https://rudra.dev/posts/gatsby-overkill-for-a-static-site-generator/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0530</pubDate>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/gatsby-overkill-for-a-static-site-generator/</guid>
       <description>Table of Contents   So what went wrong?    My new workflow    Conclusion      So I have been using Gatsby for almost two years now. I have built a nice looking and fast blog with 15 odd posts. With Gatsby I got PWA is out of the box, the component&amp;rsquo;s are written in react, I can query my post data from graphQL and so many other goodies.</description>
@@ -19,7 +19,7 @@
     <item>
       <title>Nothing&#39;s wrong with reinventing the wheel</title>
       <link>https://rudra.dev/logs/nothing-is-wrong-with-reinventing-the-wheel/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/nothing-is-wrong-with-reinventing-the-wheel/</guid>
       <description>I have heard it many times and I have had enough.

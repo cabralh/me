@@ -6,11 +6,11 @@
     <description>Recent content in status on rudra kar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0530</lastBuildDate><atom:link href="https://rudra.dev/tags/status/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rudra.dev/tags/status/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wrap up 2020</title>
       <link>https://rudra.dev/logs/wrap-up-2020/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/wrap-up-2020/</guid>
       <description>Table of Contents   The good/ususal times    The pandemic    The learnings    New job    New rig    Loki    epilogue      It took me a some time to compile my thoughts down for this post. 2020 hasn&amp;rsquo;t been easy on the most and hence this won&amp;rsquo;t be a normal retrospect a year log, rather I will introspect the revelations I had during the past year.</description>
@@ -19,7 +19,7 @@
     <item>
       <title>Switching to Emacs</title>
       <link>https://rudra.dev/logs/switching-to-emacs/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/switching-to-emacs/</guid>
       <description>I have spend enormous time on configuring and reconfiguring my vimrc file for the past 4 years. I have been using (neo)vim at work for last 2 years and I am really happy how this has turned out. Now I am pretty confident on most of the vim key-bindings, the register management and a lot of other amazing features.
@@ -30,7 +30,7 @@ Fuck it! I am switching to Emacs.
     <item>
       <title>Status update #2</title>
       <link>https://rudra.dev/logs/status-update-2/</link>
-      <pubDate>Fri, 31 Jan 2020 00:00:00 +0530</pubDate>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/status-update-2/</guid>
       <description>Table of Contents   New project    New languages      Guess it&amp;rsquo;s time for a status update.
@@ -42,7 +42,7 @@ Fuck it! I am switching to Emacs.
     <item>
       <title>Wrap up 2019</title>
       <link>https://rudra.dev/logs/wrap-up-2019/</link>
-      <pubDate>Tue, 31 Dec 2019 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/wrap-up-2019/</guid>
       <description>Table of Contents   Python    React    Touch typing    vi    epilogue      Guess it&amp;rsquo;s time to retrospect the last 12 months.
@@ -53,7 +53,7 @@ Python In June I switched my job and accepted a position of a back-end developer
     <item>
       <title>Status update #1</title>
       <link>https://rudra.dev/logs/status-update-1/</link>
-      <pubDate>Tue, 17 Dec 2019 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/status-update-1/</guid>
       <description>I have been spending so much time and energy tweaking this website, that I feel like I should maintain a log for it. No Git commit messages are not enough anymore. It&amp;rsquo;s kinda fun owning a place on the internet but at the same time it should at least mean something.

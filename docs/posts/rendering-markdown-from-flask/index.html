@@ -13,7 +13,7 @@
         <meta name="author" content="Rudra Kar">
 
         
-        <link rel="stylesheet" href="/scss/main.min.a08f0fee4a0b1959a8aebf8bbcfe5ddcccb3c571709631953dc77e4c06d0f6f0.css" media="screen">
+        <link rel="stylesheet" href="/scss/main.min.10ba8b23a39d58f5a15672b250b2c0b253ea4d6cc28261d999ed92bc808136d5.css" media="screen">
 
         
 
@@ -48,7 +48,7 @@
 
 
 
-<meta property="og:updated_time" content=2020-02-04T00:00:00&#43;0530 />
+<meta property="og:updated_time" content=2020-02-04T00:00:00Z />
 
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href="https://rudra.dev/sitemap.xml" />
@@ -63,8 +63,8 @@
 
 <meta property="og:type" content="article" />
 <meta property="article:publisher" content="https://github.com/mrprofessor" />
-<meta property="og:article:published_time" content=2020-02-04T00:00:00&#43;0530 />
-<meta property="article:published_time" content=2020-02-04T00:00:00&#43;0530 />
+<meta property="og:article:published_time" content=2020-02-04T00:00:00Z />
+<meta property="article:published_time" content=2020-02-04T00:00:00Z />
 
 
     <meta property="og:article:author" content="Rudra kar" />
@@ -222,16 +222,16 @@ on the index page.</p>
 everytime we hit the index.</p>
 <h2 id="lets-go-hacking">Let&rsquo;s go hacking</h2>
 <p><em>Required packages</em></p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">  pip3 install Flask markdown
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">  pip3 install Flask markdown
 </code></pre></div><p><em>app.py</em></p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#080;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">markdown</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#080;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">markdown</span>
   <span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">flask</span> <span style="color:#080;font-weight:bold">import</span> Flask
   <span style="color:#080;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">markdown.extensions.fenced_code</span>
 
   app <span style="color:#333">=</span> Flask(__name__)
 
 
-  <span style="color:#555;font-weight:bold">@app.route</span>(<span style="background-color:#fff0f0">&#34;/&#34;</span>)
+  <span style="color:#555;font-weight:bold">@app</span><span style="color:#333">.</span>route(<span style="background-color:#fff0f0">&#34;/&#34;</span>)
   <span style="color:#080;font-weight:bold">def</span> <span style="color:#06b;font-weight:bold">index</span>():
       readme_file <span style="color:#333">=</span> <span style="color:#007020">open</span>(<span style="background-color:#fff0f0">&#34;README.md&#34;</span>, <span style="background-color:#fff0f0">&#34;r&#34;</span>)
       md_template_string <span style="color:#333">=</span> markdown<span style="color:#333">.</span>markdown(
@@ -301,12 +301,12 @@ over-engineering our little snippet I thought of adding syntax highlighting with
 </a>
  extension.</p>
 <p>Let&rsquo;s generate css for syntax highlighting using pygments</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">pygments.formatters</span> <span style="color:#080;font-weight:bold">import</span> HtmlFormatter
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  <span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">pygments.formatters</span> <span style="color:#080;font-weight:bold">import</span> HtmlFormatter
 
-  formatter <span style="color:#333">=</span> HtmlFormatter(style<span style="color:#333">=</span><span style="background-color:#fff0f0">&#34;emacs&#34;</span>,full<span style="color:#333">=</span>True,cssclass<span style="color:#333">=</span><span style="background-color:#fff0f0">&#34;codehilite&#34;</span>)
+  formatter <span style="color:#333">=</span> HtmlFormatter(style<span style="color:#333">=</span><span style="background-color:#fff0f0">&#34;emacs&#34;</span>,full<span style="color:#333">=</span><span style="color:#080;font-weight:bold">True</span>,cssclass<span style="color:#333">=</span><span style="background-color:#fff0f0">&#34;codehilite&#34;</span>)
   css_string <span style="color:#333">=</span> formatter<span style="color:#333">.</span>get_style_defs()
 </code></pre></div><p>Now we need to append the css_string to the markdown converted HTML string.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  md_css_string <span style="color:#333">=</span> <span style="background-color:#fff0f0">&#34;&lt;style&gt;&#34;</span> <span style="color:#333">+</span> css_string <span style="color:#333">+</span> <span style="background-color:#fff0f0">&#34;&lt;/style&gt;&#34;</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">  md_css_string <span style="color:#333">=</span> <span style="background-color:#fff0f0">&#34;&lt;style&gt;&#34;</span> <span style="color:#333">+</span> css_string <span style="color:#333">+</span> <span style="background-color:#fff0f0">&#34;&lt;/style&gt;&#34;</span>
   md_template <span style="color:#333">=</span> md_css_string <span style="color:#333">+</span> md_template_string
   <span style="color:#080;font-weight:bold">return</span> md_template
 </code></pre></div><blockquote>

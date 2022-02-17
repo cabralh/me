@@ -6,11 +6,22 @@
     <description>Recent content on rudra kar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0530</lastBuildDate><atom:link href="https://rudra.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rudra.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zbrojovka Brno 262.5</title>
+      <link>https://rudra.dev/collections/zbrojovka_brno_262_5/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudra.dev/collections/zbrojovka_brno_262_5/</guid>
+      <description>History This board was manufactured by a Czechoslovakian company called Zbrojovka Brno  in the late &amp;rsquo;80s. Zbrojovka Brno manufactured small arms, motor vehicles, and later typewriters and computers.
+This board was made in 1988, and it uses the Soviet-era Tesla  hall effect switches.
+Zbrojovka Brno 265.6 back   Acquisition &amp;amp; Restoration It had been up for sale for more than a year on r/mechmarket  , and I was lucky enough to snag it for a very fair price.</description>
+    </item>
+    
     <item>
       <title>IBM Model F AT</title>
       <link>https://rudra.dev/collections/ibm_model_f_at/</link>
-      <pubDate>Sat, 11 Dec 2021 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/collections/ibm_model_f_at/</guid>
       <description>History This keyboard originally came with IBM Personal Computer AT (PC/AT). This computer was released in 1984, and IBM has produced over 100,000 units before discontinuing them in 1987. Some sources say that the AT stands for Advanced Technology.
@@ -20,7 +31,7 @@ IBM Model F AT key units   This model was a successor to the very famous and now
     <item>
       <title>IBM Model 3278 (Beamspring)</title>
       <link>https://rudra.dev/collections/ibm_3278/</link>
-      <pubDate>Mon, 22 Nov 2021 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/collections/ibm_3278/</guid>
       <description>At the time of writting, this old beamer is the prize of my collection. I have acquired this from a DT member who let it go for a fair enough price. They were kind enough to send me an metal(iron) door with the board too.
@@ -30,7 +41,7 @@ Initially, I liked the battered look of the board, but after a while, I powder c
     <item>
       <title>IBM Model F 5150(XT)</title>
       <link>https://rudra.dev/collections/ibm_model_f_5150_xt/</link>
-      <pubDate>Sun, 21 Nov 2021 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/collections/ibm_model_f_5150_xt/</guid>
       <description>This is the first vintage keyboard I have acquired. Unfortunately, it was broken into pieces on its way to me from Florida. However, with a bit of tender love and care, it was up and running in a few hours.
@@ -40,7 +51,7 @@ I don&amp;rsquo;t know the exact manufacturing date of the board, but there is a
     <item>
       <title>IBM Model F 3178</title>
       <link>https://rudra.dev/collections/ibm_model_f_3178/</link>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/collections/ibm_model_f_3178/</guid>
       <description>No description yet</description>
@@ -49,7 +60,7 @@ I don&amp;rsquo;t know the exact manufacturing date of the board, but there is a
     <item>
       <title>IBM Model F62 reproduction</title>
       <link>https://rudra.dev/collections/ibm_f62_reproduction/</link>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/collections/ibm_f62_reproduction/</guid>
       <description>No description yet</description>
@@ -58,7 +69,7 @@ I don&amp;rsquo;t know the exact manufacturing date of the board, but there is a
     <item>
       <title>IBM Model M122(BattleCruiser)</title>
       <link>https://rudra.dev/collections/ibm_model_m_122_battlecruiser/</link>
-      <pubDate>Tue, 17 Aug 2021 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/collections/ibm_model_m_122_battlecruiser/</guid>
       <description>No description yet</description>
@@ -67,7 +78,7 @@ I don&amp;rsquo;t know the exact manufacturing date of the board, but there is a
     <item>
       <title>IBM Model M122(BattleShip)</title>
       <link>https://rudra.dev/collections/ibm_model_m_122_battleship/</link>
-      <pubDate>Mon, 16 Aug 2021 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/collections/ibm_model_m_122_battleship/</guid>
       <description>No description yet</description>
@@ -76,7 +87,7 @@ I don&amp;rsquo;t know the exact manufacturing date of the board, but there is a
     <item>
       <title>A mininal tmux configuration from scratch</title>
       <link>https://rudra.dev/posts/a-mininal-tmux-configuration-from-scratch/</link>
-      <pubDate>Sun, 14 Mar 2021 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 14 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/a-mininal-tmux-configuration-from-scratch/</guid>
       <description>Table of Contents   General configuration    Keybindings    Customize Status Bar    Customize Active Pane    Miscellaneous    Who wants a minimal config anyway!      General configuration We need to create a ~/.tmux.conf file in our home directory. This will be the configuration file for our setup.
@@ -86,7 +97,7 @@ If the underlying terminal emulator has XTERM-256 support then we can add 256 co
     <item>
       <title>Wrap up 2020</title>
       <link>https://rudra.dev/logs/wrap-up-2020/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/wrap-up-2020/</guid>
       <description>Table of Contents   The good/ususal times    The pandemic    The learnings    New job    New rig    Loki    epilogue      It took me a some time to compile my thoughts down for this post. 2020 hasn&amp;rsquo;t been easy on the most and hence this won&amp;rsquo;t be a normal retrospect a year log, rather I will introspect the revelations I had during the past year.</description>
@@ -95,7 +106,7 @@ If the underlying terminal emulator has XTERM-256 support then we can add 256 co
     <item>
       <title>GatsbyJs: An overkill for a static site generator</title>
       <link>https://rudra.dev/posts/gatsby-overkill-for-a-static-site-generator/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0530</pubDate>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/gatsby-overkill-for-a-static-site-generator/</guid>
       <description>Table of Contents   So what went wrong?    My new workflow    Conclusion      So I have been using Gatsby for almost two years now. I have built a nice looking and fast blog with 15 odd posts. With Gatsby I got PWA is out of the box, the component&amp;rsquo;s are written in react, I can query my post data from graphQL and so many other goodies.</description>
@@ -104,7 +115,7 @@ If the underlying terminal emulator has XTERM-256 support then we can add 256 co
     <item>
       <title>Generate beautiful JSON from PostgreSQL</title>
       <link>https://rudra.dev/posts/generate-beautiful-json-from-postgresql/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/generate-beautiful-json-from-postgresql/</guid>
       <description>Table of Contents   1. Get the table data as JSON objects    2. Get the table data with specific columns    3. Get the table data as a single JSON object    4. Build JSON object with multiple tables    5. Build JSON object by resolving foreign keys    Conclusion      PostgreSQL provides a set of built-in JSON creation functions  that can be used to build basic JSON structures.</description>
@@ -113,7 +124,7 @@ If the underlying terminal emulator has XTERM-256 support then we can add 256 co
     <item>
       <title>Building a GitHub authentication service</title>
       <link>https://rudra.dev/posts/building-a-github-auth-service/</link>
-      <pubDate>Sat, 11 Apr 2020 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/building-a-github-auth-service/</guid>
       <description>Table of Contents   The GitHub OAuth process    Why do we need a back-end server    The proxy    Conclusion      Recently I was building a GitHub OAuth app to authentiacate one my client-side application with GitHub. The application was all about taking notes and maintaining them on a private repository. I have had worked on such an architecture in one of my previous jobs where we have used AWS CodeCommit  as an inventory of resources where the history and the changes were easier to maintain.</description>
@@ -122,7 +133,7 @@ If the underlying terminal emulator has XTERM-256 support then we can add 256 co
     <item>
       <title>Nothing&#39;s wrong with reinventing the wheel</title>
       <link>https://rudra.dev/logs/nothing-is-wrong-with-reinventing-the-wheel/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/nothing-is-wrong-with-reinventing-the-wheel/</guid>
       <description>I have heard it many times and I have had enough.
@@ -132,7 +143,7 @@ Some devs(mostly junior) come up to me and ask what to build as a side project a
     <item>
       <title>Switching to Emacs</title>
       <link>https://rudra.dev/logs/switching-to-emacs/</link>
-      <pubDate>Sun, 09 Feb 2020 00:00:00 +0530</pubDate>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/switching-to-emacs/</guid>
       <description>I have spend enormous time on configuring and reconfiguring my vimrc file for the past 4 years. I have been using (neo)vim at work for last 2 years and I am really happy how this has turned out. Now I am pretty confident on most of the vim key-bindings, the register management and a lot of other amazing features.
@@ -143,7 +154,7 @@ Fuck it! I am switching to Emacs.
     <item>
       <title>Rendering markdown from Flask</title>
       <link>https://rudra.dev/posts/rendering-markdown-from-flask/</link>
-      <pubDate>Tue, 04 Feb 2020 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/rendering-markdown-from-flask/</guid>
       <description>Table of Contents   Let&amp;rsquo;s go hacking    Not quite there yet!    Gimme the code!      In this post I am going to plug about a cool trick(probably useless) that I discovered geeking around the internet.
@@ -153,7 +164,7 @@ I was building a tiny microservice  which would let the client side application 
     <item>
       <title>Status update #2</title>
       <link>https://rudra.dev/logs/status-update-2/</link>
-      <pubDate>Fri, 31 Jan 2020 00:00:00 +0530</pubDate>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/status-update-2/</guid>
       <description>Table of Contents   New project    New languages      Guess it&amp;rsquo;s time for a status update.
@@ -165,7 +176,7 @@ I was building a tiny microservice  which would let the client side application 
     <item>
       <title>Wrap up 2019</title>
       <link>https://rudra.dev/logs/wrap-up-2019/</link>
-      <pubDate>Tue, 31 Dec 2019 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/wrap-up-2019/</guid>
       <description>Table of Contents   Python    React    Touch typing    vi    epilogue      Guess it&amp;rsquo;s time to retrospect the last 12 months.
@@ -176,7 +187,7 @@ Python In June I switched my job and accepted a position of a back-end developer
     <item>
       <title>Status update #1</title>
       <link>https://rudra.dev/logs/status-update-1/</link>
-      <pubDate>Tue, 17 Dec 2019 00:00:00 +0530</pubDate>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/logs/status-update-1/</guid>
       <description>I have been spending so much time and energy tweaking this website, that I feel like I should maintain a log for it. No Git commit messages are not enough anymore. It&amp;rsquo;s kinda fun owning a place on the internet but at the same time it should at least mean something.
@@ -186,7 +197,7 @@ This update brings a list of logs where I will be writing more often now. Logs w
     <item>
       <title>Setting up a task scheduler in Flask</title>
       <link>https://rudra.dev/posts/setting-up-a-task-scheduler-in-flask/</link>
-      <pubDate>Sat, 30 Nov 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/setting-up-a-task-scheduler-in-flask/</guid>
       <description>Table of Contents   Let&amp;rsquo;s go hacking    Monitoring events    Conclusion      The first thing that comes to mind while considering a task scheduler is a cron job. As most of the today&amp;rsquo;s servers are hosted on linux machines, setting a cron job for periodic task might seem like a good option for many. However in production having a crontab is nothing but a pain in the a**.</description>
@@ -195,7 +206,7 @@ This update brings a list of logs where I will be writing more often now. Logs w
     <item>
       <title>A floating terminal for (Neo)vim</title>
       <link>https://rudra.dev/posts/a-floating-terminal-for-vim/</link>
-      <pubDate>Sat, 12 Oct 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/a-floating-terminal-for-vim/</guid>
       <description>I love working in terminal and editing with (Neo)vim  . Though I have been using vim since my college days, for past two years I am using it as my full-time editor.
@@ -205,7 +216,7 @@ I remember vividly when I first switched to vim at work. It was a horrible exper
     <item>
       <title>Generate and serve files from Flask</title>
       <link>https://rudra.dev/posts/generate-and-serve-files-from-flask/</link>
-      <pubDate>Sat, 05 Oct 2019 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/generate-and-serve-files-from-flask/</guid>
       <description>Flask is one of the most used python frameworks for web development. Its simplicity and extensibility makes it convenient for both small and large applications alike.
@@ -216,7 +227,7 @@ In this blog we are going to create a simple flask web application that will gen
     <item>
       <title>Setting up (Neo)vim for React development</title>
       <link>https://rudra.dev/posts/setting-up-vim-for-react/</link>
-      <pubDate>Fri, 03 May 2019 00:00:00 +0530</pubDate>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/setting-up-vim-for-react/</guid>
       <description>Table of Contents   Syntax Highlighting    Linters and Formatters    Autocompletion    Commenting    Conclusion      It&amp;rsquo;s been 8 months since I have been using (neo)vim as my primary text editor. Initially it was incredibly tough to adopt and use it in work. Well that would be another story to tell.
@@ -226,7 +237,7 @@ Back then I was working mostly in backend using CoffeeScript  (I know 🙈).</de
     <item>
       <title>Maintaining multiple GitHub accounts</title>
       <link>https://rudra.dev/posts/maintaining-multiple-github-accounts/</link>
-      <pubDate>Sat, 24 Feb 2018 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/maintaining-multiple-github-accounts/</guid>
       <description>I recently left a huge IT corporation for a promising startup.I was asked to change my GitHub handler name as it was too cool(I think) for them.Well instead of changing I created another account using my company email.
@@ -236,7 +247,7 @@ Now I got a problem.Every day when I come home and start hacking around my own p
     <item>
       <title>Configuring nodejs and npm behind a proxy</title>
       <link>https://rudra.dev/posts/configuring-npm-behind-a-proxy/</link>
-      <pubDate>Sat, 27 May 2017 00:00:00 +0530</pubDate>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/posts/configuring-npm-behind-a-proxy/</guid>
       <description>Table of Contents   Using Proxy with NPM      For people who work in a company and squeez out some of their time to learn nodejs, setting up an dev-environment can be a real pain. Proxy servers are pretty common in college and business type institutions.
