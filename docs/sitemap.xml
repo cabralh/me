@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rudra.dev/tags/log/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/logs/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/tags/status/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/tags/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/logs/wrap-up-2021/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rudra.dev/collections/</loc>
     <lastmod>2022-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rudra.dev/tags/keyboards/</loc>
-    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rudra.dev/</loc>
-    <lastmod>2022-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rudra.dev/tags/</loc>
     <lastmod>2022-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rudra.dev/tags/vintage/</loc>
@@ -79,15 +91,6 @@
   </url><url>
     <loc>https://rudra.dev/tags/unix/</loc>
     <lastmod>2021-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rudra.dev/tags/log/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rudra.dev/logs/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rudra.dev/tags/status/</loc>
-    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rudra.dev/logs/wrap-up-2020/</loc>
     <lastmod>2021-02-16T00:00:00+00:00</lastmod>
