@@ -8,7 +8,13 @@
         <!-- Favicon -->
         {{ with .Site.Params.favicon }}<link rel="icon" type="image/png" href="{{ . }}" />{{ end }}
 
-        <title itemprop="name">{{ .Title }} | {{ .Site.Params.description }}</title>
+        {{ if eq .IsPage true }}
+            <title itemprop="name">{{ .Title }}</title>
+        {{ else }}
+            <title itemprop="name">{{ .Title }} | {{ .Site.Params.description }}</title>
+		{{ end }}
+
+        
         {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
         {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
