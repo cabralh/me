@@ -3,10 +3,40 @@
 
 
 * collections
+** IBM Model M122(BattleShip) :vintage:keyboards:ibm:modelm:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: ibm_model_m_122_battleship
+   :EXPORT_DATE: 2021-08-16
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_m_122_battleship.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+No description yet
+
+** IBM Model M122(BattleCruiser) :vintage:keyboards:ibm:modelm:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: ibm_model_m_122_battlecruiser
+   :EXPORT_DATE: 2021-08-17
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_m_122_battlecruiser.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+No description yet
+
+** IBM Model F 3178 :vintage:keyboards:ibm:modelf:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: ibm_model_f_3178
+   :EXPORT_DATE: 2021-11-20
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_f_3178.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+No description yet
+
 ** IBM Model F 5150(XT) :keyboards:ibm:modelf:xt:
    :PROPERTIES:
    :EXPORT_FILE_NAME: ibm_model_f_5150_xt
-   :EXPORT_DATE: 2021-11-21
+   :EXPORT_DATE: 2021-11-22
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_f_xt.jpg
    :EXPORT_HUGO_DRAFT: false
    :END:
@@ -22,10 +52,84 @@ before 1984, So it is at least 37 years old in 2021.
 I got a Soarer's converter along with this keyboard. With a bit of remapping, I
 was able to replace it with my Drop CTRL as my new daily driver.
 
+** IBM Model F62 reproduction :vintage:keyboards:ibm:modelf:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: ibm_f62_reproduction
+   :EXPORT_DATE: 2021-11-21
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/f62_reproduction.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+*** History
+
+This keyboard is a reproduction of one of the original IBM model F 4704 series keyboards. Originally it came with the =IBM 4704 FINANCE COMMUNICATION DISPLAY STATION MODEL 1 ENHANCED= and mainly used by the banking industry. In 2012, it was first documented by a Canadian computer enthusiast who goes by the name [[http://kishy.ca/][Kishy]] and hence called the =Kishsaver=.
+
+
+In 2015, Joe Strandberg aka =Ellipse= has decided to make [[https://deskthority.net/viewtopic.php?t=11046][reproductions]] of the F62 and F77 models. After a long wait of almost 4 years, in 2020 the project started shipping the boards for the pre-orders.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="https://web.archive.org/web/20160404205603im_/http://kishy.ca/wp-content/uploads/2013/02/6019284_0005_unwrapped-plug.jpg" loading="lazy"/>
+    <span class="img-description"> An original F62. Photo by Kishi </span>
+  </div>
+#+END_EXPORT
+
+Though it's a reproduction, it isn't an replica of the F 4704. It lacks a beeper, stand, beeper volume knob, and stepped caps.
+
+
+*** Acquisition & Details
+
+Like most other IBM enthusiasts, I too entered into Ellipse's group buy. But I was too anxious to wait two years to get my hands on one, So I got this board from r/mechmarket for a much lower price. Initially, I had planned to repaint the keyboard to beige, but I didn't go through it. In real life, this red looks quite beautiful.
+
+I got the 609th model, and the sticker on the back says the date of manufacture. It was made in China, unlike the original model.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/f62_back.jpg" loading="lazy"/>
+    <span class="img-description"> F62 reproduction back </span>
+  </div>
+#+END_EXPORT
+
+It came with blank beige keycaps, and the seller had included a set of blank Mopar blue keycaps. I swapped those beige caps with [[https://www.pckeyboard.com/][Unicomp]] APL caps with orange sub legends, and they look pretty impressive. However, some of the switches feel scratchier with the Unicomp cap, but I can't figure out why.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/f62_assembly.jpg" loading="lazy"/>
+    <span class="img-description"> Unicomp brilliant white APL caps on the F62 inner assembly </span>
+  </div>
+#+END_EXPORT
+
+My favorite part of the keyboard is its case. The case is built with Zinc and is pretty heavy. The powder coating on this particular model is superb, but I have heard complaints from other buyers regarding the quality.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/f62_zinc_case.jpg" loading="lazy"/>
+    <span class="img-description"> F62 Zinc case and Phoebe </span>
+  </div>
+#+END_EXPORT
+
+The board uses Model F AT-style barrels and barrel plates. The spring felt a bit lighter than my other Model F boards, but it wasn't too different. The spacebar uses model M type stabilizers, and it used to rattle a lot. I had to bend the stabilizer tabs a little bit and apply some silicone grease to reduce the rattle.
+
+The assembly backplate is heat-treated and has a rainbow effect like the IBM Model F keyboards.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/f62_back_assembly.jpg" loading="lazy"/>
+    <span class="img-description"> F62 inner assembly backplate </span>
+  </div>
+#+END_EXPORT
+
+This board uses a compact version of the Xwhatsit controller([[https://deskthority.net/viewtopic.php?f=7&t=13479][designed by wcass]]), and I was lucky enough to get the USB-C version. Ellipse made both type-C and micro-USB controllers, and unfortunately, the buyers don't get the option to choose. The soldering job on my model wasn't up to the mark, and I got some unwanted key actuation. I had to clean the excess flux and tape the pins so that they won't touch the metal case.
+
+*** Verdict
+
+It is pretty rare to find boards that are built as tough as this F62 and still offer a unique typing experience. I wouldn't recommend this board to a non-hobbyist because of its complexities. That said, I have been daily driving this keyboard for the past six months, and it's one of the most practical ones in my collection.
+
+
 ** IBM Model 3278 (Beamspring) :vintage:keyboards:ibm:beamspring:
    :PROPERTIES:
    :EXPORT_FILE_NAME: ibm_3278
-   :EXPORT_DATE: 2021-11-22
+   :EXPORT_DATE: 2021-11-23
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_3278_unrestored.jpg
    :EXPORT_HUGO_DRAFT: false
    :END:
@@ -82,46 +186,6 @@ a thing of beauty.
 I love this board, and hopefully, it will be on my secondary machine for years
 to come, but right now, I will get back to my beloved [[/collections/ibm_model_f_at/][F AT]] and get some work
 done.
-
-** IBM Model F 3178 :vintage:keyboards:ibm:modelf:
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: ibm_model_f_3178
-   :EXPORT_DATE: 2021-11-20
-   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_f_3178.jpg
-   :EXPORT_HUGO_DRAFT: false
-   :END:
-
-No description yet
-
-** IBM Model F62 reproduction :vintage:keyboards:ibm:modelf:
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: ibm_f62_reproduction
-   :EXPORT_DATE: 2021-11-20
-   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_f62_reproduction.jpg
-   :EXPORT_HUGO_DRAFT: false
-   :END:
-
-No description yet
-
-** IBM Model M122(BattleShip) :vintage:keyboards:ibm:modelm:
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: ibm_model_m_122_battleship
-   :EXPORT_DATE: 2021-08-16
-   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_m_122_battleship.jpg
-   :EXPORT_HUGO_DRAFT: false
-   :END:
-
-No description yet
-
-** IBM Model M122(BattleCruiser) :vintage:keyboards:ibm:modelm:
-   :PROPERTIES:
-   :EXPORT_FILE_NAME: ibm_model_m_122_battlecruiser
-   :EXPORT_DATE: 2021-08-17
-   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_m_122_battlecruiser.jpg
-   :EXPORT_HUGO_DRAFT: false
-   :END:
-
-No description yet
 
 ** IBM Model F AT :vintage:keyboards:ibm:modelF:AT:
    :PROPERTIES:
