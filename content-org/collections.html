@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-03-16 Wed 00:48 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="mrprofessor" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgd1a59ec">1. collections</a>
+<ul>
+<li><a href="#org1acf906">1.1. IBM Model M122(BattleShip)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelm">modelm</span></span></a></li>
+<li><a href="#orgdc15af5">1.2. IBM Model M122(BattleCruiser)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelm">modelm</span></span></a></li>
+<li><a href="#orgba2b8b6">1.3. IBM Model F 3178&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelf">modelf</span></span></a></li>
+<li><a href="#org1a94292">1.4. IBM Model F 5150(XT)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelf">modelf</span>&#xa0;<span class="xt">xt</span></span></a></li>
+<li><a href="#org599777c">1.5. IBM Model F62 reproduction&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelf">modelf</span></span></a>
+<ul>
+<li><a href="#orga62f45d">1.5.1. History</a></li>
+<li><a href="#org4bafa1f">1.5.2. Acquisition &amp; Details</a></li>
+<li><a href="#org3bef33d">1.5.3. Verdict</a></li>
+</ul>
+</li>
+<li><a href="#orgb6026f0">1.6. IBM Model 3278 (Beamspring)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="beamspring">beamspring</span></span></a></li>
+<li><a href="#org86b3262">1.7. IBM Model F AT&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelF">modelF</span>&#xa0;<span class="AT">AT</span></span></a>
+<ul>
+<li><a href="#org654c58d">1.7.1. History</a></li>
+<li><a href="#org39e3ab8">1.7.2. Acquisition &amp; Restoration</a></li>
+</ul>
+</li>
+<li><a href="#org4835f1f">1.8. Zbrojovka Brno 262.5&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="zbrojokva">zbrojokva</span></span></a>
+<ul>
+<li><a href="#org998cba0">1.8.1. History</a></li>
+<li><a href="#org3fffc1c">1.8.2. Acquisition &amp; Restoration</a></li>
+</ul>
+</li>
+<li><a href="#orgf10275f">1.9. Apple Extended Keyboard II&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="apple">apple</span></span></a>
+<ul>
+<li><a href="#orgeb10749">1.9.1. History</a></li>
+<li><a href="#org12058e6">1.9.2. Acquisition &amp; Restoration</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgd1a59ec" class="outline-2">
+<h2 id="orgd1a59ec"><span class="section-number-2">1</span> collections</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org1acf906" class="outline-3">
+<h3 id="org1acf906"><span class="section-number-3">1.1</span> IBM Model M122(BattleShip)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelm">modelm</span></span></h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+No description yet
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgdc15af5" class="outline-3">
+<h3 id="orgdc15af5"><span class="section-number-3">1.2</span> IBM Model M122(BattleCruiser)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelm">modelm</span></span></h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+No description yet
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgba2b8b6" class="outline-3">
+<h3 id="orgba2b8b6"><span class="section-number-3">1.3</span> IBM Model F 3178&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelf">modelf</span></span></h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+No description yet
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1a94292" class="outline-3">
+<h3 id="org1a94292"><span class="section-number-3">1.4</span> IBM Model F 5150(XT)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelf">modelf</span>&#xa0;<span class="xt">xt</span></span></h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+This is the first vintage keyboard I have acquired. Unfortunately, it was broken
+into pieces on its way to me from Florida. However, with a bit of tender love and
+care, it was up and running in a few hours.
+</p>
+
+<p>
+I don&rsquo;t know the exact manufacturing date of the board, but there is a sticker
+that says it was repaired in 1989. Most IBM 5150 keyboards were manufactured
+before 1984, So it is at least 37 years old in 2021.
+</p>
+
+<p>
+I got a Soarer&rsquo;s converter along with this keyboard. With a bit of remapping, I
+was able to replace it with my Drop CTRL as my new daily driver.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org599777c" class="outline-3">
+<h3 id="org599777c"><span class="section-number-3">1.5</span> IBM Model F62 reproduction&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelf">modelf</span></span></h3>
+<div class="outline-text-3" id="text-1-5">
+</div>
+
+<div id="outline-container-orga62f45d" class="outline-4">
+<h4 id="orga62f45d"><span class="section-number-4">1.5.1</span> History</h4>
+<div class="outline-text-4" id="text-1-5-1">
+<p>
+This keyboard is a reproduction of one of the original IBM model F 4704 series
+keyboards. Originally it came with the <code>IBM 4704 FINANCE COMMUNICATION DISPLAY
+STATION MODEL 1 ENHANCED</code> and mainly used by the banking industry. In 2012, it
+was first documented by a Canadian computer enthusiast who goes by the name
+<a href="http://kishy.ca/">Kishy</a> and hence called the <code>Kishsaver</code>.
+</p>
+
+
+<p>
+In 2015, Joe Strandberg aka <code>Ellipse</code> has decided to make <a href="https://deskthority.net/viewtopic.php?t=11046">reproductions</a> of the F62
+and F77 models. After a long wait of almost 4 years, in 2020 the project started
+shipping the boards for the pre-orders.
+</p>
+
+<div class="post-image">
+  <img src="https://web.archive.org/web/20160404205603im_/http://kishy.ca/wp-content/uploads/2013/02/6019284_0005_unwrapped-plug.jpg" loading="lazy"/>
+  <span class="img-description"> An original F62. Photo by Kishi </span>
+</div>
+
+<p>
+Though it&rsquo;s a reproduction, it isn&rsquo;t an replica of the F 4704. It lacks a beeper,
+stand, beeper volume knob, and stepped caps.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org4bafa1f" class="outline-4">
+<h4 id="org4bafa1f"><span class="section-number-4">1.5.2</span> Acquisition &amp; Details</h4>
+<div class="outline-text-4" id="text-1-5-2">
+<p>
+Like most other IBM enthusiasts, I too entered into Ellipse&rsquo;s group buy. But I
+was too anxious to wait two years to get my hands on one, So I got this board
+from r/mechmarket for a much lower price. Initially, I had planned to repaint
+the keyboard to beige, but I didn&rsquo;t go through it. In real life, this red looks
+quite beautiful.
+</p>
+
+<p>
+I got the 609th model, and the sticker on the back says the date of manufacture.
+It was made in China, unlike the original model.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/f62_back.jpg" loading="lazy"/>
+  <span class="img-description"> F62 reproduction back </span>
+</div>
+
+<p>
+It came with blank beige keycaps, and the seller had included a set of blank
+Mopar blue keycaps. I swapped those beige caps with <a href="https://www.pckeyboard.com/">Unicomp</a> APL caps with orange
+sub legends, and they look pretty impressive. However, some of the switches feel
+scratchier with the Unicomp cap, but I can&rsquo;t figure out why.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/f62_assembly.jpg" loading="lazy"/>
+  <span class="img-description"> Unicomp brilliant white APL caps on the F62 inner assembly </span>
+</div>
+
+<p>
+My favorite part of the keyboard is its case. The case is built with Zinc and is
+pretty heavy. The powder coating on this particular model is superb, but I have
+heard complaints from other buyers regarding the quality.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/f62_zinc_case.jpg" loading="lazy"/>
+  <span class="img-description"> F62 Zinc case and Phoebe </span>
+</div>
+
+<p>
+The board uses Model F AT-style barrels and barrel plates. The spring felt a bit
+lighter than my other Model F boards, but it wasn&rsquo;t too different. The spacebar
+uses model M type stabilizers, and it used to rattle a lot. I had to bend the
+stabilizer tabs a little bit and apply some silicone grease to reduce the rattle.
+</p>
+
+<p>
+The assembly backplate is heat-treated and has a rainbow effect like the IBM
+Model F keyboards.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/f62_back_assembly.jpg" loading="lazy"/>
+  <span class="img-description"> F62 inner assembly backplate </span>
+</div>
+
+<p>
+This board uses a compact version of the Xwhatsit controller(<a href="https://deskthority.net/viewtopic.php?f=7&amp;t=13479">designed by wcass</a>),
+and I was lucky enough to get the USB-C version. Ellipse made both type-C and
+micro-USB controllers, and unfortunately, the buyers don&rsquo;t get the option to
+choose. The soldering job on my model wasn&rsquo;t up to the mark, and I got some
+unwanted key actuation. I had to clean the excess flux and tape the pins so that
+they won&rsquo;t touch the metal case.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3bef33d" class="outline-4">
+<h4 id="org3bef33d"><span class="section-number-4">1.5.3</span> Verdict</h4>
+<div class="outline-text-4" id="text-1-5-3">
+<p>
+It is pretty rare to find boards that are built as tough as this F62 and still
+offer a unique typing experience. I wouldn&rsquo;t recommend this board to a
+non-hobbyist because of its complexities. That said, I have been daily driving
+this keyboard for the past six months, and it&rsquo;s one of the most practical ones
+in my collection.
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgb6026f0" class="outline-3">
+<h3 id="orgb6026f0"><span class="section-number-3">1.6</span> IBM Model 3278 (Beamspring)&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="beamspring">beamspring</span></span></h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+At the time of writting, this old beamer is the prize of my collection. I have
+acquired this from a DT member who let it go for a fair enough price. They were
+kind enough to send me an metal(iron) door with the board too.
+</p>
+
+<p>
+Initially, I liked the battered look of the board, but after a while, I powder
+coated it to black. I couldn&rsquo;t find an &ldquo;olive-green&rdquo; or &ldquo;matte-black&rdquo; color,
+So I settled for Glossy black. It looked quite good in person but shines a lot
+on camera.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/ibm_3278_powdercoated.jpg" />
+  <span class="img-description"> Glossy black powdercoating </span>
+</div>
+
+<p>
+The board wasn&rsquo;t in a terrible condition when I got it. The foam had turned
+into sticky goo, which needed some cleaning up. I manually cut a craft store
+foam and replaced it.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/ibm_3278_foam.jpg" />
+  <span class="img-description"> Handmade replacement foam </span>
+</div>
+
+<p>
+I got <a href="https://github.com/purdeaandrei/CompactBeamSpring">Pandrew&rsquo;s version of the Xwhatsit controller</a> to replace the original
+controller. I got Pandrew&rsquo;s solenoid driver too, and after a bit of hacking
+around with QMK, I got it working.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/ibm_3278_no_case.jpg" />
+  <span class="img-description"> Replacement controllers and solenoid </span>
+</div>
+
+<p>
+There are some corrosions on the plate but I was told that they won&rsquo;t grow, so
+I didn&rsquo;t bother. There was a bit of rust on the switch springs, so I tried to
+take apart the switches to clean them but found them hard to disassemble and
+ultimately gave up. The rust doesn&rsquo;t affect the smoothness of the switches.
+</p>
+
+<p>
+I used the board for a week as my daily driver with the solenoid on. I wasn&rsquo;t
+very impressed with the heavy space bar as it tired my thumb after every 15
+minutes. Apart from that, this board is an absolute joy to have and is
+a thing of beauty.
+</p>
+
+<p>
+I love this board, and hopefully, it will be on my secondary machine for years
+to come, but right now, I will get back to my beloved <a href="file:///collections/ibm_model_f_at/">F AT</a> and get some work
+done.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org86b3262" class="outline-3">
+<h3 id="org86b3262"><span class="section-number-3">1.7</span> IBM Model F AT&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="ibm">ibm</span>&#xa0;<span class="modelF">modelF</span>&#xa0;<span class="AT">AT</span></span></h3>
+<div class="outline-text-3" id="text-1-7">
+</div>
+
+<div id="outline-container-org654c58d" class="outline-4">
+<h4 id="org654c58d"><span class="section-number-4">1.7.1</span> History</h4>
+<div class="outline-text-4" id="text-1-7-1">
+<p>
+This keyboard originally came with IBM Personal Computer AT (PC/AT). This
+computer was released in 1984, and IBM has produced over 100,000 units before
+discontinuing them in 1987. Some sources say that the <b>AT</b> stands for <b>Advanced Technology</b>.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/ibm_model_f_at_units.png" loading="lazy"/>
+  <span class="img-description"> IBM Model F AT key units </span>
+</div>
+
+<p>
+This model was a successor to the very famous and now weird XT layout. The IBM PS/2 (Personal System/2) was the successor to the IBM PC/AT, and with it came the venerable model M keyboard. The model M keyboard introduced the very layout that is being used worldwide even today.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org39e3ab8" class="outline-4">
+<h4 id="org39e3ab8"><span class="section-number-4">1.7.2</span> Acquisition &amp; Restoration</h4>
+<div class="outline-text-4" id="text-1-7-2">
+<p>
+I have acquired this keyboard from eBay for a fair price. It was super dirty and was full of gunk. The barrel plate has rusty, and there were a bunch of dead spiders inside. The keycaps were quite filthy too.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/ibm_model_f_at_assembly_front.jpg" loading="lazy"/>
+  <span class="img-description"> Dirty assembly </span>
+</div>
+
+<p>
+The Foam was rotten and kept falling out the whole time. However, the back rainbow plate was pristine, and there weren&rsquo;t any rust spots on it.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/ibm_model_f_at_assembly_back.jpg" loading="lazy"/>
+  <span class="img-description"> Model F AT rainbow plate </span>
+</div>
+
+<p>
+I removed the caps and barrels and washed them in warm soapy water. Then scrubbed the barrel plate but couldn&rsquo;t repaint it because I ran out of spray paints by then. Replaced the rotten foam with a hand-made 2mm one, and reassembled everything.
+</p>
+
+
+<div class="post-image">
+  <img src="/images/collections/ibm_model_f_at_connector_chain.jpg" loading="lazy"/>
+  <span class="img-description"> AT -> PS/2 -> USB (A) -> USB (C) </span>
+</div>
+
+<p>
+It was an absolute joy to use the keyboard on modern machines. It uses AT protocol, So using a passive AT to PS/2 converter would do the trick. Since I don&rsquo;t own a computer with a native PS/2 port, I daisy-chained an active PS/2 to USB (A) converter and then another Type A to Type C adapter to connect my Macbook Pro.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4835f1f" class="outline-3">
+<h3 id="org4835f1f"><span class="section-number-3">1.8</span> Zbrojovka Brno 262.5&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="zbrojokva">zbrojokva</span></span></h3>
+<div class="outline-text-3" id="text-1-8">
+</div>
+
+<div id="outline-container-org998cba0" class="outline-4">
+<h4 id="org998cba0"><span class="section-number-4">1.8.1</span> History</h4>
+<div class="outline-text-4" id="text-1-8-1">
+<p>
+This board was manufactured by a Czechoslovakian company called <a href="http://www.zbrojovka-brno.cz/">Zbrojovka Brno</a>
+in the late &rsquo;80s. Zbrojovka Brno manufactured small arms, motor vehicles, and
+later typewriters and computers.
+</p>
+
+<p>
+This board was made in 1988, and it uses the Soviet-era <a href="https://www.tesla.cz/en/">Tesla</a> hall effect
+switches.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/zbrojovka_brno_262_5_back.jpg" loading="lazy"/>
+  <span class="img-description"> Zbrojovka Brno 265.6 back </span>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3fffc1c" class="outline-4">
+<h4 id="org3fffc1c"><span class="section-number-4">1.8.2</span> Acquisition &amp; Restoration</h4>
+<div class="outline-text-4" id="text-1-8-2">
+<p>
+It had been up for sale for more than a year on <a href="https://www.reddit.com/r/mechmarket/">r/mechmarket</a>, and I was lucky
+enough to snag it for a very fair price.  It took exactly a month to reach
+India from Czechia, and it did survive the trip.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/zbrojovka_brno_262_5_no_case.jpg" loading="lazy"/>
+  <span class="img-description"> Dirty/Rusty assembly </span>
+</div>
+
+<p>
+The case and keycaps were quite good, however, the plate was rusty, and some of
+the switches were scratchy.  It took a good bit of force to take apart the
+switches from the plate too. Unfortunately, during that process, I scuffed a
+couple of switch stems.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/zbrojovka_brno_262_5_switches1.jpg" loading="lazy"/>
+  <span class="img-description"> Tesla hall effect switches </span>
+</div>
+
+<p>
+I have planned to lube the switches and swap the rusty springs with the Cherry
+ones. The plate needs to be sanded and repainted. This board uses a DB25
+connector, so I need to find the pin layouts and make a converter for it.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf10275f" class="outline-3">
+<h3 id="orgf10275f"><span class="section-number-3">1.9</span> Apple Extended Keyboard II&#xa0;&#xa0;&#xa0;<span class="tag"><span class="vintage">vintage</span>&#xa0;<span class="keyboards">keyboards</span>&#xa0;<span class="apple">apple</span></span></h3>
+<div class="outline-text-3" id="text-1-9">
+</div>
+
+<div id="outline-container-orgeb10749" class="outline-4">
+<h4 id="orgeb10749"><span class="section-number-4">1.9.1</span> History</h4>
+<div class="outline-text-4" id="text-1-9-1">
+<p>
+Apple manufactured this board in the late 80&rsquo;s and early 90&rsquo;s. This board was the successor of the venerable Apple Extended Keyboard. These boards were included with Apple professional desktops starting with the <a href="https://en.wikipedia.org/wiki/Macintosh_IIsi">Macintosh IIsi</a>.
+</p>
+
+<p>
+These boards use either Alps or Mitsumi switches. The Mitsumi switches were only used on boards made in Japan.
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/apple_m3501_back.jpg" loading="lazy"/>
+  <span class="img-description"> Apple Extended Keyboard II back </span>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org12058e6" class="outline-4">
+<h4 id="org12058e6"><span class="section-number-4">1.9.2</span> Acquisition &amp; Restoration</h4>
+<div class="outline-text-4" id="text-1-9-2">
+<p>
+I got this board from a Deskthority sale listing for cheap. This has a German keyboard layout(ISO-DE).
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/zbrojovka_brno_262_5_no_case.jpg" loading="lazy"/>
+  <span class="img-description"> Dirty/Rusty assembly </span>
+</div>
+
+<p>
+It has thin PBT dye-sublimated keycaps with <code>Univers 57 Oblique</code> font and It uses Alps dampened cream swiches. However the the spacebar is made of ABS and hence it&rsquo;s yellowed. The case is also made of ABS and it had been significantly yellowed when I acquired it. I have <code>retrobrighted</code> it with <code>H2O2</code> and got rid EHH
+</p>
+
+<div class="post-image">
+  <img src="/images/collections/zbrojovka_brno_262_5_switches1.jpg" loading="lazy"/>
+  <span class="img-description"> Tesla hall effect switches </span>
+</div>
+
+<p>
+I have planned to lube the switches and swap the rusty springs with the Cherry
+ones. The plate needs to be sanded and repainted. This board uses a DB25
+connector, so I need to find the pin layouts and make a converter for it.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: mrprofessor</p>
+<p class="date">Created: 2022-03-16 Wed 00:48</p>
+</div>
+</body>
+</html>
