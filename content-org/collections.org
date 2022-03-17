@@ -325,7 +325,7 @@ I have planned to lube the switches and swap the rusty springs with the Cherry
 ones. The plate needs to be sanded and repainted. This board uses a DB25
 connector, so I need to find the pin layouts and make a converter for it.
 
-** Apple Extended Keyboard II :vintage:keyboards:apple:
+** Apple Extended Keyboard II :vintage:keyboards:apple:alps:
    :PROPERTIES:
    :EXPORT_FILE_NAME: apple_extended_keyboard_ii
    :EXPORT_DATE: 2022-03-15
@@ -409,3 +409,58 @@ To be honest, It didn't require a lot of restoring,  I have only =retrobrighted=
 the case with =H2O2= and got rid of the excess yellowing. That said, I have plans
 to =wax-boil= the switches and clean the keycaps too. This keyboard didn't come
 with a cable either, I need to procure one.
+
+** Monterey K104 :vintage:keyboards:monterey:alps:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: monterey_k104_alps_skcm
+   :EXPORT_DATE: 2022-03-17
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/monterey_k104/monterey_k104.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+*** History
+
+This keyboard was manufactured by [[http://www.monterey.com.tw/][Monterey]] in the '90s. This model came with
+varieties of switches, including the Alps SKCM white and blue, SMK alps mounts,
+and "alps.tw Type OA2". This particular board has Alps SKCM whites. This board
+is a =Plantron= branded keyboard, and the sticker on the back says that Plantron
+manufactured it. I couldn't find more details about this particular company. As
+per another back sticker, this board was manufactured in April 1992.
+
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/monterey_k104/monterey_k104_back.jpg" loading="lazy"/>
+    <span class="img-description"> Monterey K104 back </span>
+  </div>
+#+END_EXPORT
+
+*** Build and Features
+
+The case is made of ABS, and the keycaps are lasered(likely) thin ABS caps.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/monterey_k104/monterey_k104_no_case.jpg" loading="lazy"/>
+    <span class="img-description"> Monterey K104 without case </span>
+  </div>
+#+END_EXPORT
+
+There is a grill on the top case, and it's a distinguishable feature for Monterey
+K104 series keyboards. On the back, 8 screws keep the chassis together, and it's
+very straightforward to open it up. There is also a button to switch between AT,
+XT, and ST protocols.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/monterey_k104/monterey_k104_switch_protocol.jpg" loading="lazy"/>
+    <span class="img-description"> Monterey K104 AT/XT/ST protocol switch </span>
+  </div>
+#+END_EXPORT
+
+*** Restoration
+
+The case was quite yellowed when I got it. I washed the top case with soapy
+water and then retrobrighted the case with H2O2. Surprisingly the keycaps aren't
+yellowed as much. I have plans to waxboil the alps switches, but for now, they
+seem fine.

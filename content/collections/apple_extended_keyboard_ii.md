@@ -2,7 +2,7 @@
 title = "Apple Extended Keyboard II"
 author = ["mrprofessor"]
 date = 2022-03-15
-tags = ["vintage", "keyboards", "apple"]
+tags = ["vintage", "keyboards", "apple", "alps"]
 draft = false
 image = "/images/collections/apple_m3501/apple_m3501.jpg"
 +++
