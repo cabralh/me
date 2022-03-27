@@ -19,6 +19,7 @@ canonifyURLs = true
 
 publishDir = "docs"
 
+
 [menu]
 
   [[menu.main]]
@@ -68,6 +69,8 @@ publishDir = "docs"
   favicon = "/images/favicon.ico"
   # resume = "https://docs.google.com/gview?url=https://github.com/mrprofessor/resume/raw/master/rudra_narayan_resume.pdf&embedded=true"
   resume = "https://github.com/mrprofessor/resume/blob/master/rudra_narayan_resume.pdf"
+  mainSections = "posts"
+
 
 # Projects list
 [[params.projects]]
