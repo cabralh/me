@@ -19,7 +19,11 @@
 			{{ end }}
 
 			<div class="blog-post-content">
-				{{ if .Params.Image }}
+				{{ if .Params.Cover }}
+					<div class="post-image">
+						<img src={{ .Params.Cover }} loading="lazy">
+					</div>
+				{{ else if .Params.Image }}
 					<div class="post-image">
 						<img src={{ .Params.Image }} loading="lazy">
 					</div>
