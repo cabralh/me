@@ -18,7 +18,7 @@ switches.
 
 <div class="post-image">
   <img src="/images/collections/zbrojovka_brno_262_5_back.jpg" loading="lazy"/>
-  <span class="img-description"> Zbrojovka Brno 265.6 back </span>
+  <span class="img-description"> Zbrojovka Brno 262.5 back </span>
 </div>
 
 
@@ -33,7 +33,7 @@ India from Czechia, and it did survive the trip.
   <span class="img-description"> Dirty/Rusty assembly </span>
 </div>
 
-The case and keycaps were quite good, however, the plate was rusty, and some of
+The case and keycaps were quite good; however, the plate was rusty, and some of
 the switches were scratchy.  It took a good bit of force to take apart the
 switches from the plate too. Unfortunately, during that process, I scuffed a
 couple of switch stems.

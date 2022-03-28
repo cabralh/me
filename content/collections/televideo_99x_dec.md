@@ -19,8 +19,8 @@ uses a different protocol to communicate with the Terminals.
 ## Acquisition {#acquisition}
 
 I was lucky enough to get into the [largest vintage computer keyboard](https://deskthority.net/viewtopic.php?f=2&t=25763) group-buy
-in history. [Inoznez](https://deskthority.net/memberlist.php?mode=viewprofile&u=21126), A German Deskthority member used his parent's farm and slowly
-shipped them out to all over the world.
+in history. [Inoznez](https://deskthority.net/memberlist.php?mode=viewprofile&u=21126), used his parent's farm to store the boards and slowly
+shipped them out all over the world.
 
 Initially, I wasn't aware of this, but I got an entry when another buyer had to
 drop out of the deal for some reason. I got 10 boards for myself and helped proxy
@@ -51,7 +51,7 @@ cable yet. :)
 
 ## Build and Features {#build-and-features}
 
-The case is made of ABS and will yellow over time, However, these boards are NOS,
+The case is made of ABS and will yellow over time; However, these boards are NOS,
 and these haven't been yellowed yet.
 
 <div class="post-image">

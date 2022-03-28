@@ -30,7 +30,7 @@ I have acquired this keyboard from eBay for a fair price. It was super dirty and
   <span class="img-description"> Dirty assembly </span>
 </div>
 
-The Foam was rotten and kept falling out the whole time. However, the back rainbow plate was pristine, and there weren't any rust spots on it.
+The Foam was rotten and kept falling out the whole time; However, the back rainbow plate was pristine, and there weren't any rust spots on it.
 
 <div class="post-image">
   <img src="/images/collections/ibm_model_f_at_assembly_back.jpg" loading="lazy"/>

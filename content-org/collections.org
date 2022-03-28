@@ -155,7 +155,6 @@ non-hobbyist because of its complexities. That said, I have been daily driving
 this keyboard for the past six months, and it's one of the most practical ones
 in my collection.
 
-
 ** IBM Model 3278 (Beamspring) :vintage:keyboards:ibm:beamspring:
    :PROPERTIES:
    :EXPORT_FILE_NAME: ibm_3278
@@ -250,7 +249,7 @@ I have acquired this keyboard from eBay for a fair price. It was super dirty and
   </div>
 #+END_EXPORT
 
-The Foam was rotten and kept falling out the whole time. However, the back rainbow plate was pristine, and there weren't any rust spots on it.
+The Foam was rotten and kept falling out the whole time; However, the back rainbow plate was pristine, and there weren't any rust spots on it.
 
 #+BEGIN_EXPORT HTML
   <div class="post-image">
@@ -292,7 +291,7 @@ switches.
 #+BEGIN_EXPORT HTML
   <div class="post-image">
     <img src="/images/collections/zbrojovka_brno_262_5_back.jpg" loading="lazy"/>
-    <span class="img-description"> Zbrojovka Brno 265.6 back </span>
+    <span class="img-description"> Zbrojovka Brno 262.5 back </span>
   </div>
 #+END_EXPORT
 
@@ -309,7 +308,7 @@ India from Czechia, and it did survive the trip.
   </div>
 #+END_EXPORT
 
-The case and keycaps were quite good, however, the plate was rusty, and some of
+The case and keycaps were quite good; however, the plate was rusty, and some of
 the switches were scratchy.  It took a good bit of force to take apart the
 switches from the plate too. Unfortunately, during that process, I scuffed a
 couple of switch stems.
@@ -521,7 +520,7 @@ cable yet. :)
 
 *** Build and Features
 
-The case is made of ABS and will yellow over time, However, these boards are NOS,
+The case is made of ABS and will yellow over time; However, these boards are NOS,
 and these haven't been yellowed yet.
 
 #+BEGIN_EXPORT HTML
@@ -569,3 +568,41 @@ NMB branding anywhere on the case.
 Since this is a NOS board, it didn't require any restoration. However, I need
 make a converter for it. Thanks to the genious of [[https://github.com/purdeaandrei][Purdea Andrei]] , TMK now
 [[https://github.com/tmk/tmk_keyboard/pull/711][supports]] the Televideo 990/995 space invader boards.
+
+** Zbrojovka Brno 262.4 :vintage:keyboards:zbrojokva:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: zbrojovka_brno_262_4
+   :EXPORT_DATE: 2022-03-28
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/zbrojovka_brno_262_4/zbrojovka_brno_262_4.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+This board was manufactured by a Czechoslovakian company called [[http://www.zbrojovka-brno.cz/][Zbrojovka Brno]]
+in the late '80s. Zbrojovka Brno manufactured small arms, motor vehicles, and
+later typewriters and computers.
+
+I have documented another [[/collections/zbrojovka_brno_262_5/][Zbrojokva board,]] and it's very similar to that one.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/zbrojovka_brno_262_4/zbrojovka_brno_262_4_back.jpg" loading="lazy"/>
+    <span class="img-description"> Zbrojovka Brno 262.4 back </span>
+  </div>
+#+END_EXPORT
+
+*** Acquisition
+
+My good friend [[https://www.youtube.com/user/krikun998][krikun98]], helped me buy and ship a few Soviet-era boards along
+with this one. This board is in NOS condition, So I didn't open it up to take
+some pictures.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/zbrojovka_brno_262_4/zbrojovka_brno_262_4_nos.jpg" loading="lazy"/>
+    <span class="img-description"> NOS Zbrojokva Brno 262.4 </span>
+  </div>
+#+END_EXPORT
+
+The switches and keycaps are in excellent condition. The board even came with
+styrofoam, and I believe it is the original one. It doesn't need any
+restoration; however, I need to make a converter for modern systems.
