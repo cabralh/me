@@ -606,7 +606,7 @@ The switches and keycaps are in excellent condition. The board even came with
 styrofoam, and I believe it is the original one. It doesn't need any
 restoration; however, I need to make a converter for modern systems.
 
-** NMB RT-8700 series keyboard :vintage:keyboards:zbrojokva:
+** NMB RT-8700 series keyboard :vintage:keyboards:nmb:space_invader:
    :PROPERTIES:
    :EXPORT_FILE_NAME: nmb_8700_series
    :EXPORT_DATE: 2022-03-28
