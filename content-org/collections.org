@@ -479,7 +479,6 @@ This particular board was made for the Televideo 99X series of terminals. This
 layout is known as DEC layout, named after [[https://deskthority.net/wiki/Digital_Equipment_Corporation][Digital Equipment Corporation]] and
 uses a different protocol to communicate with the Terminals.
 
-
 *** Acquisition
 
 I was lucky enough to get into the [[https://deskthority.net/viewtopic.php?f=2&t=25763][largest vintage computer keyboard]] group-buy
@@ -606,3 +605,93 @@ some pictures.
 The switches and keycaps are in excellent condition. The board even came with
 styrofoam, and I believe it is the original one. It doesn't need any
 restoration; however, I need to make a converter for modern systems.
+
+** NMB RT-8700 series keyboard :vintage:keyboards:zbrojokva:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: nmb_8700_series
+   :EXPORT_DATE: 2022-03-28
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :cover /images/collections/nmb_8700/nmb_8756cdn.jpg :image /images/collections/nmb_8700/nmb_8756cdn_cover.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+*** History
+
+RT-8700 is a series of full-sized keyboards manufactured by NMB in the mid-’90s.
+They came with the fifth generation Hi-Tek series 725 switches, which is the
+last generation of its type.
+
+Unlike the 4th generation boards, these have a smaller footprint and thinner
+bezels. Here is the original Ad for these boards.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/nmb_8700/nmb_rt_8700_ad_01.png" loading="lazy"/>
+  </div>
+#+END_EXPORT
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/nmb_8700/nmb_rt_8700_ad_02.png" loading="lazy"/>
+    <span class="img-description"> NMB RT-8700 series keyboard Ad
+    <a target="_blank" href="https://sites.google.com/view/vintkeys-wiki/NMB/Fifth_Generation">source VintKeys</a>
+    </span>
+  </div>
+#+END_EXPORT
+
+NMB used to market them as the “Right Touch” keyboard, and these were the
+alternatives of the venerable IBM Model M and Northgate Omnikey 101s, among
+others.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/nmb_8700/nmb_8756cdn_back.jpg" loading="lazy"/>
+    <span class="img-description"> NOS NMB 8700 series keyboard </span>
+  </div>
+#+END_EXPORT
+
+*** Acquisition
+
+I was lucky enough to get into the [[https://deskthority.net/viewtopic.php?f=2&t=25763][largest vintage computer keyboard]] group-buy
+in history. [[https://deskthority.net/memberlist.php?mode=viewprofile&u=21126][Inoznez]] used his parent's farm to store the boards and slowly
+shipped them out all over the world.
+
+Initially, I wasn't aware of this, but I got an entry when another buyer had to
+drop out of the deal for some reason. I got '10' boards for myself and helped
+proxy some more for the local keyboard enthusiasts.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/televideo_99x_dec/nmb_keyboards.jpg" loading="lazy"/>
+    <span class="img-description"> My NMB keyboard haul </span>
+  </div>
+#+END_EXPORT
+
+There were many layouts, such as German, Swedish, Norwegian, etc and I got one
+from each. This board is the one with a Danish layout.
+
+*** Build and Features
+
+The case is probably made of thin ABS and it's very poorly made. The whole thing
+creaks a lot, even with a minor flex. The keycaps however, are made of thick PBT
+with dye sublimated legends.
+
+This particular model has clicky Hi-Tek series 725 switches(black). These
+switches are colloquially known as =space invader= switches due to their
+resemblance with the 8-bit space invader arcade game characters.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/nmb_8700/nmb_8756cdn_cover.jpg" loading="lazy"/>
+    <span class="img-description"> Hi-Tek series 725 switches </span>
+  </div>
+#+END_EXPORT
+
+The switches feel a bit stiffer and aren’t as smooth as the white space invader
+switches I got a few weeks back.
+
+I got 6 of these boards, and I have planned to harvest the switches and caps from
+one keyboard and build a custom 60% board using the PCB and Plates from the
+latest group buy.
+
+*** Restoration
+
+These boards didn't need any restoration, because they are practically new. I
+got an active PS/2 port to USB converter, and it worked with my computer.
