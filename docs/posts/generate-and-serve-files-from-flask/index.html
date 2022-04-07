@@ -17,7 +17,7 @@
         <meta name="author" content="Rudra Kar">
 
         
-        <link rel="stylesheet" href="/scss/main.min.10ba8b23a39d58f5a15672b250b2c0b253ea4d6cc28261d999ed92bc808136d5.css" media="screen">
+        <link rel="stylesheet" href="/scss/main.min.04f4508146e7a18e8313889af1263a14f41bce6e45aee42c8bb6f47e56955ca0.css" media="screen">
 
         
 
@@ -195,22 +195,22 @@ will generate and serve files without storing them in the server.</p>
 </p>
 </blockquote>
 <p>Let&rsquo;s create a flask application with a basic route.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
-  <span style="color:#080;font-weight:bold">from</span> <span style="color:#0e84b5;font-weight:bold">flask</span> <span style="color:#080;font-weight:bold">import</span> Flask
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+  <span style="color:#069;font-weight:bold">from</span> <span style="color:#0cf;font-weight:bold">flask</span> <span style="color:#069;font-weight:bold">import</span> Flask
 
-  app <span style="color:#333">=</span> Flask(__name__)
+  app <span style="color:#555">=</span> Flask(__name__)
 
 
-  <span style="color:#555;font-weight:bold">@app</span><span style="color:#333">.</span>route(<span style="background-color:#fff0f0">&#34;/&#34;</span>)
-  <span style="color:#080;font-weight:bold">def</span> <span style="color:#06b;font-weight:bold">index</span>():
-      <span style="color:#080;font-weight:bold">return</span> <span style="background-color:#fff0f0">&#34;Hello Flask!&#34;</span>
+  <span style="color:#99f">@app</span><span style="color:#555">.</span>route(<span style="color:#c30">&#34;/&#34;</span>)
+  <span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">index</span>():
+      <span style="color:#069;font-weight:bold">return</span> <span style="color:#c30">&#34;Hello Flask!&#34;</span>
 </code></pre></div><p>and voila! We have our server up and running with only 5 lines of code.</p>
 <p>Now we need to create a route which will accept a file name as
 parameter.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
-  <span style="color:#555;font-weight:bold">@app</span><span style="color:#333">.</span>route(<span style="background-color:#fff0f0">&#34;/file/&lt;file_name&gt;&#34;</span>)
-  <span style="color:#080;font-weight:bold">def</span> <span style="color:#06b;font-weight:bold">get_file</span>(file_name):
-      <span style="color:#080;font-weight:bold">return</span> file_name
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+  <span style="color:#99f">@app</span><span style="color:#555">.</span>route(<span style="color:#c30">&#34;/file/&lt;file_name&gt;&#34;</span>)
+  <span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">get_file</span>(file_name):
+      <span style="color:#069;font-weight:bold">return</span> file_name
 </code></pre></div><p>For our use case we need to generate a csv file using fake data.We need
 to install 
 <a
@@ -230,39 +230,39 @@ data such as name, address, birthdate etc. Also we are using
 </a>
  to generate dataframes
 that can be used to create both csv and spreadsheets.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">
   python3 -m pip install faker pandas
 </code></pre></div><p>Let&rsquo;s add functions that will generate csv files using the fake data we
 get from Faker.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
-  <span style="color:#080;font-weight:bold">def</span> <span style="color:#06b;font-weight:bold">generate_fake_data</span>():
-      fake_data <span style="color:#333">=</span> [fake<span style="color:#333">.</span>simple_profile() <span style="color:#080;font-weight:bold">for</span> item <span style="color:#000;font-weight:bold">in</span> <span style="color:#007020">range</span>(<span style="color:#00d;font-weight:bold">5</span>)]
-      <span style="color:#080;font-weight:bold">return</span> pd<span style="color:#333">.</span>DataFrame(fake_data)
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+  <span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">generate_fake_data</span>():
+      fake_data <span style="color:#555">=</span> [fake<span style="color:#555">.</span>simple_profile() <span style="color:#069;font-weight:bold">for</span> item <span style="color:#000;font-weight:bold">in</span> <span style="color:#366">range</span>(<span style="color:#f60">5</span>)]
+      <span style="color:#069;font-weight:bold">return</span> pd<span style="color:#555">.</span>DataFrame(fake_data)
 
 
-  <span style="color:#080;font-weight:bold">def</span> <span style="color:#06b;font-weight:bold">generate_csv_file</span>(file_df):
-      <span style="color:#888"># Create an o/p buffer</span>
-      file_buffer <span style="color:#333">=</span> StringIO()
+  <span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">generate_csv_file</span>(file_df):
+      <span style="color:#09f;font-style:italic"># Create an o/p buffer</span>
+      file_buffer <span style="color:#555">=</span> StringIO()
 
-      <span style="color:#888"># Write the dataframe to the buffer</span>
-      file_df<span style="color:#333">.</span>to_csv(file_buffer, encoding<span style="color:#333">=</span><span style="background-color:#fff0f0">&#34;utf-8&#34;</span>, index<span style="color:#333">=</span><span style="color:#080;font-weight:bold">False</span>, sep<span style="color:#333">=</span><span style="background-color:#fff0f0">&#34;,&#34;</span>)
+      <span style="color:#09f;font-style:italic"># Write the dataframe to the buffer</span>
+      file_df<span style="color:#555">.</span>to_csv(file_buffer, encoding<span style="color:#555">=</span><span style="color:#c30">&#34;utf-8&#34;</span>, index<span style="color:#555">=</span><span style="color:#069;font-weight:bold">False</span>, sep<span style="color:#555">=</span><span style="color:#c30">&#34;,&#34;</span>)
 
-      <span style="color:#888"># Seek to the beginning of the stream</span>
-      file_buffer<span style="color:#333">.</span>seek(<span style="color:#00d;font-weight:bold">0</span>)
-      <span style="color:#080;font-weight:bold">return</span> file_buffer
+      <span style="color:#09f;font-style:italic"># Seek to the beginning of the stream</span>
+      file_buffer<span style="color:#555">.</span>seek(<span style="color:#f60">0</span>)
+      <span style="color:#069;font-weight:bold">return</span> file_buffer
 </code></pre></div><p>Now we need to call these functions from our routing method and send the
 file as response.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
-  <span style="color:#555;font-weight:bold">@app</span><span style="color:#333">.</span>route(<span style="background-color:#fff0f0">&#34;/file/&lt;file_name&gt;&#34;</span>)
-  <span style="color:#080;font-weight:bold">def</span> <span style="color:#06b;font-weight:bold">get_file</span>(file_name):
-      fake_df <span style="color:#333">=</span> generate_fake_data()
-      generated_file <span style="color:#333">=</span> generate_csv_file(fake_df)
-      response <span style="color:#333">=</span> Response(generated_file, mimetype<span style="color:#333">=</span><span style="background-color:#fff0f0">&#34;text/csv&#34;</span>)
-      <span style="color:#888"># add a filename</span>
-      response<span style="color:#333">.</span>headers<span style="color:#333">.</span>set(
-          <span style="background-color:#fff0f0">&#34;Content-Disposition&#34;</span>, <span style="background-color:#fff0f0">&#34;attachment&#34;</span>, filename<span style="color:#333">=</span><span style="background-color:#fff0f0">&#34;</span><span style="background-color:#eee">{0}</span><span style="background-color:#fff0f0">.csv&#34;</span><span style="color:#333">.</span>format(file_name)
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+  <span style="color:#99f">@app</span><span style="color:#555">.</span>route(<span style="color:#c30">&#34;/file/&lt;file_name&gt;&#34;</span>)
+  <span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">get_file</span>(file_name):
+      fake_df <span style="color:#555">=</span> generate_fake_data()
+      generated_file <span style="color:#555">=</span> generate_csv_file(fake_df)
+      response <span style="color:#555">=</span> Response(generated_file, mimetype<span style="color:#555">=</span><span style="color:#c30">&#34;text/csv&#34;</span>)
+      <span style="color:#09f;font-style:italic"># add a filename</span>
+      response<span style="color:#555">.</span>headers<span style="color:#555">.</span>set(
+          <span style="color:#c30">&#34;Content-Disposition&#34;</span>, <span style="color:#c30">&#34;attachment&#34;</span>, filename<span style="color:#555">=</span><span style="color:#c30">&#34;</span><span style="color:#a00">{0}</span><span style="color:#c30">.csv&#34;</span><span style="color:#555">.</span>format(file_name)
       )
-      <span style="color:#080;font-weight:bold">return</span> response
+      <span style="color:#069;font-weight:bold">return</span> response
 </code></pre></div><p>Once we hit the above route with a file name the browser will ask for
 permission to download the csv file.</p>
 <p>Here is the full source code with a working example.</p>

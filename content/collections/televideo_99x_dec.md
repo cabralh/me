@@ -12,7 +12,7 @@ image = "/images/collections/televideo_99x_dec/televideo_dec_thumbnail.jpg"
 
 This keyboard was manufactured by [NMB](https://www.nmbtc.com/) in the early '90s for Televideo terminals.
 This particular board was made for the Televideo 99X series of terminals. This
-layout is known as DEC layout, named after [Digital Equipment Corporation](https://deskthority.net/wiki/Digital%5FEquipment%5FCorporation) and
+layout is known as DEC layout, named after [Digital Equipment Corporation](https://deskthority.net/wiki/Digital_Equipment_Corporation) and
 uses a different protocol to communicate with the Terminals.
 
 
@@ -91,4 +91,4 @@ NMB branding anywhere on the case.
 
 Since this is a NOS board, it didn't require any restoration. However, I need
 make a converter for it. Thanks to the genious of [Purdea Andrei](https://github.com/purdeaandrei) , TMK now
-[supports](https://github.com/tmk/tmk%5Fkeyboard/pull/711) the Televideo 990/995 space invader boards.
+[supports](https://github.com/tmk/tmk_keyboard/pull/711) the Televideo 990/995 space invader boards.

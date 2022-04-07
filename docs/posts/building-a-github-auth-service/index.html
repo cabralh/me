@@ -17,7 +17,7 @@
         <meta name="author" content="Rudra Kar">
 
         
-        <link rel="stylesheet" href="/scss/main.min.10ba8b23a39d58f5a15672b250b2c0b253ea4d6cc28261d999ed92bc808136d5.css" media="screen">
+        <link rel="stylesheet" href="/scss/main.min.04f4508146e7a18e8313889af1263a14f41bce6e45aee42c8bb6f47e56955ca0.css" media="screen">
 
         
 
@@ -257,25 +257,25 @@ first glance it seemed so.</p>
 <li>
 <p>Once we create an OAuth application, we need to call the GitHub API
 for an authentication code. This API call looks something like this.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">        https://github.com/login/oauth/authorize?client_id=0000000000000&amp;scope=repo&amp;redirect_uri=https://xyz.io/myapp/
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">        https://github.com/login/oauth/authorize?client_id=0000000000000&amp;scope=repo&amp;redirect_uri=https://xyz.io/myapp/
 </code></pre></div><p>This redirects to the redirect_uri with an authentication code which
 looks something like this.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">        https://xyz.io/myapp/?code=a17ccd77d36b2be92aa4
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">        https://xyz.io/myapp/?code=a17ccd77d36b2be92aa4
 </code></pre></div></li>
 <li>
 <p>After getting the code, we need to make a POST call to get the
 access_token.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">          curl --location --request POST <span style="background-color:#fff0f0">&#39;https://github.com/login/oauth/access_token&#39;</span> <span style="color:#666;background-color:#fff0f0;font-weight:bold">\
-</span><span style="color:#666;background-color:#fff0f0;font-weight:bold"></span>          --header <span style="background-color:#fff0f0">&#39;Cookie: _octo=GH1.1.206637387.1578955864; logged_in=no&#39;</span> <span style="color:#666;background-color:#fff0f0;font-weight:bold">\
-</span><span style="color:#666;background-color:#fff0f0;font-weight:bold"></span>          --form <span style="background-color:#fff0f0">&#39;client_id=xxxxxxxxxxxxxx&#39;</span> <span style="color:#666;background-color:#fff0f0;font-weight:bold">\
-</span><span style="color:#666;background-color:#fff0f0;font-weight:bold"></span>          --form <span style="background-color:#fff0f0">&#39;client_secret=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#39;</span> <span style="color:#666;background-color:#fff0f0;font-weight:bold">\
-</span><span style="color:#666;background-color:#fff0f0;font-weight:bold"></span>          --form <span style="background-color:#fff0f0">&#39;code=a17ccd77d36b2be92aa4&#39;</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">          curl --location --request POST <span style="color:#c30">&#39;https://github.com/login/oauth/access_token&#39;</span> <span style="color:#c30;font-weight:bold">\
+</span><span style="color:#c30;font-weight:bold"></span>          --header <span style="color:#c30">&#39;Cookie: _octo=GH1.1.206637387.1578955864; logged_in=no&#39;</span> <span style="color:#c30;font-weight:bold">\
+</span><span style="color:#c30;font-weight:bold"></span>          --form <span style="color:#c30">&#39;client_id=xxxxxxxxxxxxxx&#39;</span> <span style="color:#c30;font-weight:bold">\
+</span><span style="color:#c30;font-weight:bold"></span>          --form <span style="color:#c30">&#39;client_secret=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&#39;</span> <span style="color:#c30;font-weight:bold">\
+</span><span style="color:#c30;font-weight:bold"></span>          --form <span style="color:#c30">&#39;code=a17ccd77d36b2be92aa4&#39;</span>
 </code></pre></div></li>
 <li>
 <p>Once we have the access_token we can start making call to GitHub and
 interact with repositories. Here is an example to get the current
 user details.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">          curl -H <span style="background-color:#fff0f0">&#34;Authorization: 2434543442242394sfes34dds&#34;</span> https://api.github.com/user
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">          curl -H <span style="color:#c30">&#34;Authorization: 2434543442242394sfes34dds&#34;</span> https://api.github.com/user
 </code></pre></div></li>
 </ol>
 <blockquote>
@@ -309,39 +309,39 @@ provider.</p>
 client id and client secret and will accept the authentication code as a
 parameter for the API.</p>
 <p>The API call to the proxy/server should look something like this.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">  https://your-proxy.glitch.me/authenticate/a17ccd77d36b2be92aa4
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">  https://your-proxy.glitch.me/authenticate/a17ccd77d36b2be92aa4
 </code></pre></div><p>Here we are using Python and Flask to build the server, but it can be
 any stack of your choice.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#555;font-weight:bold">@app</span><span style="color:#333">.</span>route(<span style="background-color:#fff0f0">&#34;/authenticate/&lt;code&gt;&#34;</span>, methods<span style="color:#333">=</span>[<span style="background-color:#fff0f0">&#34;GET&#34;</span>])
-    <span style="color:#080;font-weight:bold">def</span> <span style="color:#06b;font-weight:bold">authenticate</span>(code):
-        creds <span style="color:#333">=</span> get_access_token(<span style="color:#333">*</span>build_config(code))
-        <span style="color:#080;font-weight:bold">return</span> jsonify(creds)
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">    <span style="color:#99f">@app</span><span style="color:#555">.</span>route(<span style="color:#c30">&#34;/authenticate/&lt;code&gt;&#34;</span>, methods<span style="color:#555">=</span>[<span style="color:#c30">&#34;GET&#34;</span>])
+    <span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">authenticate</span>(code):
+        creds <span style="color:#555">=</span> get_access_token(<span style="color:#555">*</span>build_config(code))
+        <span style="color:#069;font-weight:bold">return</span> jsonify(creds)
 
 
-    <span style="color:#080;font-weight:bold">def</span> <span style="color:#06b;font-weight:bold">build_config</span>(code):
-        url <span style="color:#333">=</span> config[<span style="background-color:#fff0f0">&#34;oauth_url&#34;</span>]
-        headers <span style="color:#333">=</span> {<span style="background-color:#fff0f0">&#34;Content-Type&#34;</span>: <span style="background-color:#fff0f0">&#34;application/json&#34;</span>}
-        payload <span style="color:#333">=</span> {
-            <span style="background-color:#fff0f0">&#34;client_id&#34;</span>: os<span style="color:#333">.</span>environ<span style="color:#333">.</span>get(config[<span style="background-color:#fff0f0">&#34;oauth_client_id&#34;</span>]),
-            <span style="background-color:#fff0f0">&#34;client_secret&#34;</span>: os<span style="color:#333">.</span>environ<span style="color:#333">.</span>get(config[<span style="background-color:#fff0f0">&#34;oauth_client_secret&#34;</span>]),
-            <span style="background-color:#fff0f0">&#34;code&#34;</span>: code,
+    <span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">build_config</span>(code):
+        url <span style="color:#555">=</span> config[<span style="color:#c30">&#34;oauth_url&#34;</span>]
+        headers <span style="color:#555">=</span> {<span style="color:#c30">&#34;Content-Type&#34;</span>: <span style="color:#c30">&#34;application/json&#34;</span>}
+        payload <span style="color:#555">=</span> {
+            <span style="color:#c30">&#34;client_id&#34;</span>: os<span style="color:#555">.</span>environ<span style="color:#555">.</span>get(config[<span style="color:#c30">&#34;oauth_client_id&#34;</span>]),
+            <span style="color:#c30">&#34;client_secret&#34;</span>: os<span style="color:#555">.</span>environ<span style="color:#555">.</span>get(config[<span style="color:#c30">&#34;oauth_client_secret&#34;</span>]),
+            <span style="color:#c30">&#34;code&#34;</span>: code,
         }
-        <span style="color:#888"># Raise exceptions if client_id or client_secret not found.</span>
-        <span style="color:#080;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">not</span> payload[<span style="background-color:#fff0f0">&#34;client_id&#34;</span>]:
-            <span style="color:#080;font-weight:bold">raise</span> APIException(<span style="background-color:#fff0f0">&#34;Client Id is not found in environment&#34;</span>, status_code<span style="color:#333">=</span><span style="color:#00d;font-weight:bold">422</span>)
-        <span style="color:#080;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">not</span> payload[<span style="background-color:#fff0f0">&#34;client_secret&#34;</span>]:
-            <span style="color:#080;font-weight:bold">raise</span> APIException(<span style="background-color:#fff0f0">&#34;Client secret is not found in environment&#34;</span>, status_code<span style="color:#333">=</span><span style="color:#00d;font-weight:bold">422</span>)
-        <span style="color:#080;font-weight:bold">return</span> url, headers, payload
+        <span style="color:#09f;font-style:italic"># Raise exceptions if client_id or client_secret not found.</span>
+        <span style="color:#069;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">not</span> payload[<span style="color:#c30">&#34;client_id&#34;</span>]:
+            <span style="color:#069;font-weight:bold">raise</span> APIException(<span style="color:#c30">&#34;Client Id is not found in environment&#34;</span>, status_code<span style="color:#555">=</span><span style="color:#f60">422</span>)
+        <span style="color:#069;font-weight:bold">if</span> <span style="color:#000;font-weight:bold">not</span> payload[<span style="color:#c30">&#34;client_secret&#34;</span>]:
+            <span style="color:#069;font-weight:bold">raise</span> APIException(<span style="color:#c30">&#34;Client secret is not found in environment&#34;</span>, status_code<span style="color:#555">=</span><span style="color:#f60">422</span>)
+        <span style="color:#069;font-weight:bold">return</span> url, headers, payload
 
 
-    <span style="color:#080;font-weight:bold">def</span> <span style="color:#06b;font-weight:bold">get_access_token</span>(url, headers, payload):
-        response <span style="color:#333">=</span> requests<span style="color:#333">.</span>post(url, headers<span style="color:#333">=</span>headers, params<span style="color:#333">=</span>payload)
-        <span style="color:#888"># If client id not found</span>
-        <span style="color:#080;font-weight:bold">if</span> response<span style="color:#333">.</span>text <span style="color:#333">==</span> <span style="background-color:#fff0f0">&#34;Not Found&#34;</span>:
-            <span style="color:#080;font-weight:bold">raise</span> APIException(<span style="background-color:#fff0f0">&#34;Client id is invalid&#34;</span>, status_code<span style="color:#333">=</span><span style="color:#00d;font-weight:bold">404</span>)
-        qs <span style="color:#333">=</span> <span style="color:#007020">dict</span>(parse_qsl(response<span style="color:#333">.</span>text))
-        creds <span style="color:#333">=</span> {item: qs[item] <span style="color:#080;font-weight:bold">for</span> item <span style="color:#000;font-weight:bold">in</span> qs}
-        <span style="color:#080;font-weight:bold">return</span> creds
+    <span style="color:#069;font-weight:bold">def</span> <span style="color:#c0f">get_access_token</span>(url, headers, payload):
+        response <span style="color:#555">=</span> requests<span style="color:#555">.</span>post(url, headers<span style="color:#555">=</span>headers, params<span style="color:#555">=</span>payload)
+        <span style="color:#09f;font-style:italic"># If client id not found</span>
+        <span style="color:#069;font-weight:bold">if</span> response<span style="color:#555">.</span>text <span style="color:#555">==</span> <span style="color:#c30">&#34;Not Found&#34;</span>:
+            <span style="color:#069;font-weight:bold">raise</span> APIException(<span style="color:#c30">&#34;Client id is invalid&#34;</span>, status_code<span style="color:#555">=</span><span style="color:#f60">404</span>)
+        qs <span style="color:#555">=</span> <span style="color:#366">dict</span>(parse_qsl(response<span style="color:#555">.</span>text))
+        creds <span style="color:#555">=</span> {item: qs[item] <span style="color:#069;font-weight:bold">for</span> item <span style="color:#000;font-weight:bold">in</span> qs}
+        <span style="color:#069;font-weight:bold">return</span> creds
 </code></pre></div><p>Here we are storing the client id and client secret as environment
 variable and using them to build the required parameters for the POST
 call. We are also wrapping the default error message with a more

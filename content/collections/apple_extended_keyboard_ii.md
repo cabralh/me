@@ -11,7 +11,7 @@ image = "/images/collections/apple_m3501/apple_m3501.jpg"
 
 Apple manufactured this board in the late '80s and early 90s. This board was the
 successor of the venerable Apple Extended Keyboard. These boards were included
-with Apple professional desktops starting with the [Macintosh IIsi](https://en.wikipedia.org/wiki/Macintosh%5FIIsi).
+with Apple professional desktops starting with the [Macintosh IIsi](https://en.wikipedia.org/wiki/Macintosh_IIsi).
 
 These boards use either Alps or Mitsumi switches. The Mitsumi switches were only
 used on boards made in Japan. M3501s are said to be the last
@@ -59,7 +59,7 @@ to extend and retract the feet.
   <span class="img-description"> Apple M3501 Feet </span>
 </div>
 
-This particular board has [Alps SKCM Cream Dampened](https://deskthority.net/wiki/Alps%5FSKCM%5FCream%5FDamped) switches, which are the most
+This particular board has [Alps SKCM Cream Dampened](https://deskthority.net/wiki/Alps_SKCM_Cream_Damped) switches, which are the most
 common switches found on AEK IIs. The switches are stacked vertically on the
 function row, which is kind of unique to the AEK series boards.
 

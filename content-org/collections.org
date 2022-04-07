@@ -18,7 +18,7 @@ No description yet
    :EXPORT_FILE_NAME: ibm_model_m_122_battlecruiser
    :EXPORT_DATE: 2021-08-17
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/ibm_model_m_122_battlecruiser.jpg
-   :EXPORT_HUGO_DRAFT: false
+   :EXPORT_HUGO_DRAFT: true
    :END:
 
 No description yet
