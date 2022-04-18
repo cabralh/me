@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rudra.dev/tags/alps/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rudra.dev/collections/</loc>
-    <lastmod>2022-03-28T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rudra.dev/tags/keyboards/</loc>
-    <lastmod>2022-03-28T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/tags/northgate/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/collections/northgate_omnikey_ultra/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/tags/omnikey/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/tags/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/tags/vintage/</loc>
+    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rudra.dev/tags/nmb/</loc>
     <lastmod>2022-03-28T00:00:00+00:00</lastmod>
@@ -14,16 +35,7 @@
     <loc>https://rudra.dev/collections/nmb_8700_series/</loc>
     <lastmod>2022-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rudra.dev/</loc>
-    <lastmod>2022-03-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://rudra.dev/tags/space-invader/</loc>
-    <lastmod>2022-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rudra.dev/tags/</loc>
-    <lastmod>2022-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rudra.dev/tags/vintage/</loc>
     <lastmod>2022-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rudra.dev/tags/zbrojokva/</loc>
@@ -34,9 +46,6 @@
   </url><url>
     <loc>https://rudra.dev/collections/televideo_99x_dec/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rudra.dev/tags/alps/</loc>
-    <lastmod>2022-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rudra.dev/tags/monterey/</loc>
     <lastmod>2022-03-17T00:00:00+00:00</lastmod>
