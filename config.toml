@@ -63,7 +63,7 @@ publishDir = "docs"
 [params]
   author = "Rudra Kar"
   description = "thoughts, obsessions and mostly rants"
-  sitename = "Rudra Narayan Kar blog"
+  sitename = "Rudra Kar blog"
   github = "https://github.com/mrprofessor"
   twitter = "@weary_beard"
   favicon = "/images/favicon.ico"

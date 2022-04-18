@@ -22,6 +22,16 @@
 <meta property="article:author" content="mrprofessor" />
 <meta name="author" content="mrprofessor" />
 
+<!-- TODO -->
+<!-- Add a default image for posts that don't have one -->
+{{ if .Params.Cover }}
+  <meta property="og:image" content="{{ .Params.Cover | absURL }}" />
+  <meta property="og:image" content="{{ .Params.Cover | absURL }}" />
+{{ else if .Params.Image }}
+  <meta property="og:image" content="{{ .Params.Image | absURL }}" />
+  <meta property="og:image" content="{{ .Params.Image | absURL }}" />
+{{ end }}
+
 
 <meta property="og:locale" content="{{ .Language.Lang }}">
 <meta name="language" content="{{ .Language.LanguageName }}">
