@@ -83,7 +83,6 @@ shipping the boards for the pre-orders.
 Though it's a reproduction, it isn't an replica of the F 4704. It lacks a beeper,
 stand, beeper volume knob, and stepped caps.
 
-
 *** Acquisition & Details
 
 Like most other IBM enthusiasts, I too entered into Ellipse's group buy. But I
@@ -695,3 +694,126 @@ latest group buy.
 
 These boards didn't need any restoration, because they are practically new. I
 got an active PS/2 port to USB converter, and it worked with my computer.
+
+** Northgate Omnikey Ultra :vintage:keyboards:northgate:omnikey:alps:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: northgate_omnikey_ultra
+   :EXPORT_DATE: 2022-04-14
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/northgate_omnikey_ultra/northgate_omnikey_ultra.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+*** History
+
+Northgate Computer Systems was founded in 1987, and they used to sell
+personal computers. They sold their products through direct marketing
+However, their Omnikey keyboards were sold through dealers. Before the
+introduction of Omnikey series keyboards, Northgate badged keyboards from
+several companies such as Focus and Monterey, and some of the initial
+Omnikey models are said to be manufactured by Focus.
+
+The first generation of Omnikey models was sold in the late ’88s, and the
+Omnikey Ultra series was manufactured in the mid-’90s. Here are some
+advertisements for Omnikey Ultra boards.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/northgate_omnikey_ultra/northgate_omnikey_launch_ad.png" loading="lazy"/>
+    <span class="img-description"> Northgate Omnikey Ultra Launch Ad - PC Magazine 1990 </span>
+  </div>
+#+END_EXPORT
+
+These Omnikey keyboards were widely praised for their reliability and key
+feel. After they ceased their computer production, they kept on marketing
+and selling their keyboard until Avant took over. Many users preferred
+using the Omnikey keyboard instead of the original boards that came with
+their computer. These boards were compatible with both IBM and Apple
+computers.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/northgate_omnikey_ultra/northgate_omnikey_ultra_ad.jpg" loading="lazy"/>
+    <span class="img-description"> Northgate Omnikey Ultra Ad - PC Magazine 1990 (Please don't abandon your keyboards)</span>
+  </div>
+#+END_EXPORT
+
+*** Build & Features
+
+This keyboard uses a hard plastic top, and that’s all the plastic you get
+on the board(except the switches and caps). It uses a steel switch-plate
+and a steel back-plate. It weighs around 2.3 kg, which isn’t surprising
+given so much of metal it has. This board is built like a tank and is one
+of the toughest Alps boards I own.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/northgate_omnikey_ultra/northgate_omnikey_no_case.jpg" loading="lazy"/>
+    <span class="img-description"> Northgate Omnikey Ultra without case</span>
+  </div>
+#+END_EXPORT
+
+Opening this board is very straightforward; It has 6 screws in the back
+and 4 more on the switch plate. The back panel is quite heavy and weighs
+around 800 grams. On the back, there are multiple stickers, One with FCC
+id, one with the serial number, and there is another sticker with some
+numbers I couldn’t make any sense of. The feet are rubber coated for
+better friction, and there are two sturdy rubber pads on the bottom.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/northgate_omnikey_ultra/northgate_omnikey_back.jpg" loading="lazy"/>
+    <span class="img-description"> Northgate Omnikey Ultra back side</span>
+  </div>
+#+END_EXPORT
+
+Like most Omnikeys, this board came with Alps complicated pine white
+switches (Alps SKCL whites). The caps are Doubleshot ABS ones, and some of
+the modifier switches have different colors. It features a BAE (Big Ass
+Enter), left side Function row, and a navigation cluster with cross-arrow
+keys. The alphas + modifier layout is very similar to the Monterey layout
+with a Big ass enter and a full-sized backspace.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/northgate_omnikey_ultra/northgate_omnikey_switches.jpg" loading="lazy"/>
+    <span class="img-description"> Northgate Omnikey Ultra switches</span>
+  </div>
+#+END_EXPORT
+
+The PCB is connected to the controller via a white ribbon cable. This PCB
+supports N-key rollover and various layouts including but not limited to
+Dvorak, Amiga, and Qwerty. The controller also features a set of
+DIP(Dual-in-line package) switches, which can be configured to set
+layouts, swap modifier keys, and change protocols.
+
+#+BEGIN_EXPORT HTML
+  <div class="post-image">
+    <img src="/images/collections/northgate_omnikey_ultra/northgate_omnikey_pcb.jpg" loading="lazy"/>
+    <span class="img-description"> Northgate Omnikey Ultra PCB</span>
+  </div>
+#+END_EXPORT
+
+*** Restoration
+
+The keyboard wasn’t in a good state when I acquired it. It needed some cleaning and some retr0briting to bring it back to its original condition. I have greased the stabilizers with di-electric grease to reduce the rattle; However, the switches could use some cleaning. This keyboard is by far the most practical vintage keyboard I have ever owned, and I intend to keep using it in the coming years.
+
+** Apple M0110 keyboard :vintage:keyboards:apple:alps:skcc:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: apple_m0110
+   :EXPORT_DATE: 2022-04-12
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/apple_m0110/apple_m0110.jpg
+   :EXPORT_HUGO_DRAFT: true
+   :END:
+
+   No descriptions yet
+
+** Data General 6312-k keyboard :vintage:keyboards:acer:data_general:membrane:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: data_general_6312_k
+   :EXPORT_DATE: 2022-04-13
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/collections/data_general_6312_k/data_general_6312_k.jpg
+   :EXPORT_HUGO_DRAFT: true
+   :END:
+
+   No descriptions yet
+
