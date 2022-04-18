@@ -26,11 +26,18 @@
 <!-- Add a default image for posts that don't have one -->
 {{ if .Params.Cover }}
   <meta property="og:image" content="{{ .Params.Cover | absURL }}" />
-  <meta property="og:image" content="{{ .Params.Cover | absURL }}" />
+  <meta property="twitter:image" content="{{ .Params.Cover | absURL }}" />
+  <meta name="twitter:image:src" content="{{ .Params.Cover | absURL }}" />
 {{ else if .Params.Image }}
   <meta property="og:image" content="{{ .Params.Image | absURL }}" />
-  <meta property="og:image" content="{{ .Params.Image | absURL }}" />
+  <meta property="twitter:image" content="{{ .Params.Image | absURL }}" />
+  <meta name="twitter:image:src" content="{{ .Params.Image | absURL }}" />
 {{ end }}
+
+<!-- Twitter stuff -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creater" content="mrprofessor" />
+<meta name="twitter:title" content="{{ .Title }}" />
 
 
 <meta property="og:locale" content="{{ .Language.Lang }}">
