@@ -6,11 +6,15 @@
     <description>Recent content in vim on rudra kar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://rudra.dev/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Oct 2019 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://rudra.dev/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>A floating terminal for (Neo)vim</title>
       <link>https://rudra.dev/posts/a-floating-terminal-for-vim/</link>
-      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0530</pubDate>
       
       <guid>https://rudra.dev/posts/a-floating-terminal-for-vim/</guid>
       <description>I love working in terminal and editing with (Neo)vim  . Though I have been using vim since my college days, for past two years I am using it as my full-time editor.
@@ -20,7 +24,7 @@ I remember vividly when I first switched to vim at work. It was a horrible exper
     <item>
       <title>Setting up (Neo)vim for React development</title>
       <link>https://rudra.dev/posts/setting-up-vim-for-react/</link>
-      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0530</pubDate>
       
       <guid>https://rudra.dev/posts/setting-up-vim-for-react/</guid>
       <description>Table of Contents   Syntax Highlighting    Linters and Formatters    Autocompletion    Commenting    Conclusion      It&amp;rsquo;s been 8 months since I have been using (neo)vim as my primary text editor. Initially it was incredibly tough to adopt and use it in work. Well that would be another story to tell.

@@ -6,11 +6,15 @@
     <description>Recent content in celery on rudra kar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://rudra.dev/tags/celery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Nov 2019 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://rudra.dev/tags/celery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Setting up a task scheduler in Flask</title>
       <link>https://rudra.dev/posts/setting-up-a-task-scheduler-in-flask/</link>
-      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0530</pubDate>
       
       <guid>https://rudra.dev/posts/setting-up-a-task-scheduler-in-flask/</guid>
       <description>Table of Contents   Let&amp;rsquo;s go hacking    Monitoring events    Conclusion      The first thing that comes to mind while considering a task scheduler is a cron job. As most of the today&amp;rsquo;s servers are hosted on linux machines, setting a cron job for periodic task might seem like a good option for many. However in production having a crontab is nothing but a pain in the a**.</description>

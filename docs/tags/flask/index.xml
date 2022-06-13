@@ -6,11 +6,15 @@
     <description>Recent content in flask on rudra kar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rudra.dev/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://rudra.dev/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Building a GitHub authentication service</title>
       <link>https://rudra.dev/posts/building-a-github-auth-service/</link>
-      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0530</pubDate>
       
       <guid>https://rudra.dev/posts/building-a-github-auth-service/</guid>
       <description>Table of Contents   The GitHub OAuth process    Why do we need a back-end server    The proxy    Conclusion      Recently I was building a GitHub OAuth app to authentiacate one my client-side application with GitHub. The application was all about taking notes and maintaining them on a private repository. I have had worked on such an architecture in one of my previous jobs where we have used AWS CodeCommit  as an inventory of resources where the history and the changes were easier to maintain.</description>
@@ -19,7 +23,7 @@
     <item>
       <title>Rendering markdown from Flask</title>
       <link>https://rudra.dev/posts/rendering-markdown-from-flask/</link>
-      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0530</pubDate>
       
       <guid>https://rudra.dev/posts/rendering-markdown-from-flask/</guid>
       <description>Table of Contents   Let&amp;rsquo;s go hacking    Not quite there yet!    Gimme the code!      In this post I am going to plug about a cool trick(probably useless) that I discovered geeking around the internet.
@@ -29,7 +33,7 @@ I was building a tiny microservice  which would let the client side application 
     <item>
       <title>Setting up a task scheduler in Flask</title>
       <link>https://rudra.dev/posts/setting-up-a-task-scheduler-in-flask/</link>
-      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Nov 2019 00:00:00 +0530</pubDate>
       
       <guid>https://rudra.dev/posts/setting-up-a-task-scheduler-in-flask/</guid>
       <description>Table of Contents   Let&amp;rsquo;s go hacking    Monitoring events    Conclusion      The first thing that comes to mind while considering a task scheduler is a cron job. As most of the today&amp;rsquo;s servers are hosted on linux machines, setting a cron job for periodic task might seem like a good option for many. However in production having a crontab is nothing but a pain in the a**.</description>
@@ -38,7 +42,7 @@ I was building a tiny microservice  which would let the client side application 
     <item>
       <title>Generate and serve files from Flask</title>
       <link>https://rudra.dev/posts/generate-and-serve-files-from-flask/</link>
-      <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 05 Oct 2019 00:00:00 +0530</pubDate>
       
       <guid>https://rudra.dev/posts/generate-and-serve-files-from-flask/</guid>
       <description>Flask is one of the most used python frameworks for web development. Its simplicity and extensibility makes it convenient for both small and large applications alike.
