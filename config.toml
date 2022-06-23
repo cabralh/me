@@ -35,9 +35,9 @@ publishDir = "docs"
     weight = 11
 
   [[menu.main]]
-    identifier = "collections"
-    name = "collections"
-    url = "/collections/"
+    identifier = "keyboards"
+    name = "keyboards"
+    url = "/keyboards/"
     weight = 12
 
 

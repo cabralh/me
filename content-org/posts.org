@@ -1765,8 +1765,7 @@ https://custom-user-store.jp.auth0.com/authorize?
   response_type=token&
   client_id=GgdwqkegdUxo1yZT5GA9fclient_id&
   connection=custom-user-store&
-  redirect_uri=https://www.rudra.dev/collections
-
+  redirect_uri=https://www.rudra.dev/keyboards
 #+end_src
 
 
