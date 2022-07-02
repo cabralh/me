@@ -8,7 +8,6 @@ aliases = "/log/status-update-2"
 +++
 
 <div class="ox-hugo-toc toc">
-<div></div>
 
 <div class="heading">Table of Contents</div>
 
