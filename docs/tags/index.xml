@@ -116,11 +116,29 @@
     </item>
     
     <item>
+      <title>auth</title>
+      <link>https://rudra.dev/tags/auth/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudra.dev/tags/auth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>nmb</title>
       <link>https://rudra.dev/tags/nmb/</link>
       <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/tags/nmb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://rudra.dev/tags/python/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudra.dev/tags/python/</guid>
       <description></description>
     </item>
     
@@ -332,15 +350,6 @@
     </item>
     
     <item>
-      <title>auth</title>
-      <link>https://rudra.dev/tags/auth/</link>
-      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rudra.dev/tags/auth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>flask</title>
       <link>https://rudra.dev/tags/flask/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
@@ -355,15 +364,6 @@
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://rudra.dev/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://rudra.dev/tags/python/</link>
-      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rudra.dev/tags/python/</guid>
       <description></description>
     </item>
     

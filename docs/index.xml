@@ -57,6 +57,15 @@ Unlike the 4th generation boards, these have a smaller footprint and thinner bez
     </item>
     
     <item>
+      <title>Using Auth0 with a custom user store</title>
+      <link>https://rudra.dev/posts/custom_user_store_with_auth0/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rudra.dev/posts/custom_user_store_with_auth0/</guid>
+      <description>Table of Contents   The problem    Ground work    Set up the Database    Auth0 setup      Auth0 actions configuration      Auth0 is an identity management solution for Web, Mobile, and IoT devices. It supports almost all types of authentication mechanisms and eases the complexity of both authentication and authorization. However, like everything else it has it&amp;rsquo;s limits.</description>
+    </item>
+    
+    <item>
       <title>Zbrojovka Brno 262.4</title>
       <link>https://rudra.dev/keyboards/zbrojovka_brno_262_4/</link>
       <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>

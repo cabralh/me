@@ -62,13 +62,25 @@
     <loc>https://rudra.dev/tags/skcc/</loc>
     <lastmod>2022-04-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://rudra.dev/tags/auth/</loc>
+    <lastmod>2022-03-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rudra.dev/tags/nmb/</loc>
     <lastmod>2022-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rudra.dev/keyboards/nmb_8700_series/</loc>
     <lastmod>2022-03-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://rudra.dev/posts/</loc>
+    <lastmod>2022-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/tags/python/</loc>
+    <lastmod>2022-03-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rudra.dev/tags/space-invader/</loc>
+    <lastmod>2022-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rudra.dev/posts/custom_user_store_with_auth0/</loc>
     <lastmod>2022-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rudra.dev/tags/zbrojokva/</loc>
@@ -137,9 +149,6 @@
     <loc>https://rudra.dev/tags/mac/</loc>
     <lastmod>2021-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rudra.dev/posts/</loc>
-    <lastmod>2021-03-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://rudra.dev/tags/productivity/</loc>
     <lastmod>2021-03-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -188,9 +197,6 @@
     <loc>https://rudra.dev/tags/sql/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rudra.dev/tags/auth/</loc>
-    <lastmod>2020-04-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://rudra.dev/posts/building-a-github-auth-service/</loc>
     <lastmod>2020-04-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -198,9 +204,6 @@
     <lastmod>2020-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rudra.dev/tags/github/</loc>
-    <lastmod>2020-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rudra.dev/tags/python/</loc>
     <lastmod>2020-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rudra.dev/logs/nothing-is-wrong-with-reinventing-the-wheel/</loc>
