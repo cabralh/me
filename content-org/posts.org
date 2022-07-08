@@ -1675,7 +1675,7 @@ So in this post, we will setup a PostgreSQL database with some user data. Then w
 
 **** Set up the Database
 
-I have used heroku free tier plans to create a Postgres database. Let's use =psql= to connect the remote database.
+I have used [[https://elements.heroku.com/addons/heroku-postgresql][heroku free tier]] plans to create a Postgres database. Let's use =psql= to connect the remote database.
 
 #+begin_src sh
 psql -h <host> <port> -d <db_name> -U <user>

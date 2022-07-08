@@ -3,7 +3,7 @@ title = "Using Auth0 with a custom user store"
 author = ["mrprofessor"]
 date = 2022-03-28
 tags = ["auth", "python"]
-draft = true
+draft = false
 +++
 
 <div class="ox-hugo-toc toc">
@@ -34,7 +34,7 @@ So in this post, we will setup a PostgreSQL database with some user data. Then w
 
 ### Set up the Database {#set-up-the-database}
 
-I have used heroku free tier plans to create a Postgres database. Let's use `psql` to connect the remote database.
+I have used [heroku free tier](https://elements.heroku.com/addons/heroku-postgresql) plans to create a Postgres database. Let's use `psql` to connect the remote database.
 
 ```sh
 psql -h <host> <port> -d <db_name> -U <user>
