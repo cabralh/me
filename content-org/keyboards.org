@@ -982,3 +982,53 @@ box, I will edit this section once I get my pro-micro shipments from China.
 This is an exceptional keyboard with amazing switches and it sounds amazing. The
 XT layout is my favorite layout and by far this is one of the favorite keyboard
 in my collection.
+
+** CherryB Freyr :custom:keyboards:mx:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: cherryb_freyr
+   :EXPORT_DATE: 2022-09-17
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/cherryb_freyr/freyr_space_cadet.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+   
+*** Configuration
+
+    -   Design by CherryB
+    -   Black aluminium case
+    -   CherryB PCB and aluminium plate
+    -   Durock v2 stabilizers
+    -   Cherry MX clone JWICK all blacks, lubed with krytox 205g0
+    -   GMK Space Cadet II
+
+#+BEGIN_EXPORT html
+<div class="post-image">
+  <img src="/images/keyboards/cherryb_freyr/freyr_back.jpg" loading="lazy"/>
+  <span class="img-description"> Freyr weight </span>
+</div>
+#+END_EXPORT
+
+
+** Rama U-80A seq2 :custom:keyboards:mx:
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: rama_u80a_seq2
+   :EXPORT_DATE: 2022-09-18
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/rama_u80a/u80a_mt3_elvish_01.jpg
+   :EXPORT_HUGO_DRAFT: false
+   :END:
+
+*** Configuration
+
+    -   Design by Rama
+    -   Soya(Beige-ish) aluminium case
+    -   Wilba U-80A hotswappable PCB
+    -   C3 Equalz stabilizers
+    -   Cherry MX clone Gazzew Boba U4t 62g (Unlubed)
+    -   MT3 Elvish base keycaps
+
+#+BEGIN_EXPORT html
+<div class="post-image">
+  <img src="/images/keyboards/rama_u80a/u80a_mt3_godspeed_01.jpg" loading="lazy"/>
+  <span class="img-description"> U-80a with MT3 GodSpeed set</span>
+</div>
+#+END_EXPORT
+
