@@ -3,12 +3,16 @@
 
 
 * keyboards
+:PROPERTIES:
+:CUSTOM_ID: keyboards
+:END:
 ** IBM Model M122(BattleShip) :vintage:keyboards:ibm:modelm:
    :PROPERTIES:
    :EXPORT_FILE_NAME: ibm_model_m_122_battleship
    :EXPORT_DATE: 2021-08-16
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/ibm_model_m_122_battleship.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: ibm-model-m122-battleship
    :END:
 
 No description yet
@@ -19,6 +23,7 @@ No description yet
    :EXPORT_DATE: 2021-08-17
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/ibm_model_m_122_battlecruiser.jpg
    :EXPORT_HUGO_DRAFT: true
+   :CUSTOM_ID: ibm-model-m122-battlecruiser
    :END:
 
 No description yet
@@ -29,6 +34,7 @@ No description yet
    :EXPORT_DATE: 2021-11-20
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/ibm_model_f_3178.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: ibm-model-f-3178
    :END:
 
 No description yet
@@ -39,6 +45,7 @@ No description yet
    :EXPORT_DATE: 2021-11-22
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/ibm_model_f_xt.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: ibm-model-f-5150-xt
    :END:
 
 This is the first vintage keyboard I have acquired. Unfortunately, it was broken
@@ -58,9 +65,13 @@ was able to replace it with my Drop CTRL as my new daily driver.
    :EXPORT_DATE: 2021-11-21
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/f62_reproduction.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: ibm-model-f62-reproduction
    :END:
 
 *** History
+:PROPERTIES:
+:CUSTOM_ID: history
+:END:
 
 This keyboard is a reproduction of one of the original IBM model F 4704 series
 keyboards. Originally it came with the =IBM 4704 FINANCE COMMUNICATION DISPLAY
@@ -84,6 +95,9 @@ Though it's a reproduction, it isn't an replica of the F 4704. It lacks a beeper
 stand, beeper volume knob, and stepped caps.
 
 *** Acquisition & Details
+:PROPERTIES:
+:CUSTOM_ID: acquisition-details
+:END:
 
 Like most other IBM enthusiasts, I too entered into Ellipse's group buy. But I
 was too anxious to wait two years to get my hands on one, So I got this board
@@ -147,6 +161,9 @@ unwanted key actuation. I had to clean the excess flux and tape the pins so that
 they won't touch the metal case.
 
 *** Verdict
+:PROPERTIES:
+:CUSTOM_ID: verdict
+:END:
 
 It is pretty rare to find boards that are built as tough as this F62 and still
 offer a unique typing experience. I wouldn't recommend this board to a
@@ -160,6 +177,7 @@ in my collection.
    :EXPORT_DATE: 2021-11-23
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/ibm_3278_unrestored.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: ibm-model-3278-beamspring
    :END:
 
 
@@ -221,9 +239,13 @@ done.
    :EXPORT_DATE: 2021-12-11
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/ibm_model_f_at.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: ibm-model-f-at
    :END:
 
 *** History
+:PROPERTIES:
+:CUSTOM_ID: history
+:END:
 This keyboard originally came with IBM Personal Computer AT (PC/AT). This
 computer was released in 1984, and IBM has produced over 100,000 units before
 discontinuing them in 1987. Some sources say that the *AT* stands for *Advanced Technology*.
@@ -238,6 +260,9 @@ discontinuing them in 1987. Some sources say that the *AT* stands for *Advanced 
 This model was a successor to the very famous and now weird XT layout. The IBM PS/2 (Personal System/2) was the successor to the IBM PC/AT, and with it came the venerable model M keyboard. The model M keyboard introduced the very layout that is being used worldwide even today.
 
 *** Acquisition & Restoration
+:PROPERTIES:
+:CUSTOM_ID: acquisition-restoration
+:END:
 
 I have acquired this keyboard from eBay for a fair price. It was super dirty and was full of gunk. The barrel plate has rusty, and there were a bunch of dead spiders inside. The keycaps were quite filthy too.
 
@@ -275,9 +300,13 @@ It was an absolute joy to use the keyboard on modern machines. It uses AT protoc
    :EXPORT_DATE: 2022-02-17
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/zbrojovka_brno_262_5_front.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: zbrojovka-brno-262-5
    :END:
 
 *** History
+:PROPERTIES:
+:CUSTOM_ID: history
+:END:
 
 
 This board was manufactured by a Czechoslovakian company called [[http://www.zbrojovka-brno.cz/][Zbrojovka Brno]]
@@ -295,6 +324,9 @@ switches.
 #+END_EXPORT
 
 *** Acquisition & Restoration
+:PROPERTIES:
+:CUSTOM_ID: acquisition-restoration
+:END:
 
 It had been up for sale for more than a year on [[https://www.reddit.com/r/mechmarket/][r/mechmarket]], and I was lucky
 enough to snag it for a very fair price.  It took exactly a month to reach
@@ -329,9 +361,13 @@ connector, so I need to find the pin layouts and make a converter for it.
    :EXPORT_DATE: 2022-03-15
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/apple_m3501/apple_m3501.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: apple-extended-keyboard-ii
    :END:
 
 *** History
+:PROPERTIES:
+:CUSTOM_ID: history
+:END:
 
 Apple manufactured this board in the late '80s and early 90s. This board was the
 successor of the venerable Apple Extended Keyboard. These boards were included
@@ -349,6 +385,9 @@ used on boards made in Japan. M3501s are said to be the last
 #+END_EXPORT
 
 *** Build and features
+:PROPERTIES:
+:CUSTOM_ID: build-and-features
+:END:
 
 I got this German layout M3501 from the Deskthority sale listing for a fair price.
 
@@ -402,6 +441,9 @@ function row, which is kind of unique to the AEK series boards.
 #+END_EXPORT
 
 *** Restoration
+:PROPERTIES:
+:CUSTOM_ID: restoration
+:END:
 
 To be honest, It didn't require a lot of restoring,  I have only =retrobrighted=
 the case with =H2O2= and got rid of the excess yellowing. That said, I have plans
@@ -414,9 +456,13 @@ with a cable either, I need to procure one.
    :EXPORT_DATE: 2022-03-17
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/monterey_k104/monterey_k104.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: monterey-k104
    :END:
 
 *** History
+:PROPERTIES:
+:CUSTOM_ID: history
+:END:
 
 This keyboard was manufactured by [[http://www.monterey.com.tw/][Monterey]] in the '90s. This model came with
 varieties of switches, including the Alps SKCM white and blue, SMK alps mounts,
@@ -434,6 +480,9 @@ per another back sticker, this board was manufactured in April 1992.
 #+END_EXPORT
 
 *** Build and Features
+:PROPERTIES:
+:CUSTOM_ID: build-and-features
+:END:
 
 The case is made of ABS, and the keycaps are lasered(likely) thin ABS caps.
 
@@ -457,6 +506,9 @@ XT, and ST protocols.
 #+END_EXPORT
 
 *** Restoration
+:PROPERTIES:
+:CUSTOM_ID: restoration
+:END:
 
 The case was quite yellowed when I got it. I washed the top case with soapy
 water and then retrobrighted the case with H2O2. Surprisingly the keycaps aren't
@@ -469,9 +521,13 @@ seem fine.
    :EXPORT_DATE: 2022-03-18
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :cover /images/keyboards/televideo_99x_dec/televideo_dec_thumbnail.jpg :image /images/keyboards/televideo_99x_dec/televideo_dec_thumbnail.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: televideo-990-995-dec-keyboard
    :END:
 
 *** History
+:PROPERTIES:
+:CUSTOM_ID: history
+:END:
 
 This keyboard was manufactured by [[https://www.nmbtc.com/][NMB]] in the early '90s for Televideo terminals.
 This particular board was made for the Televideo 99X series of terminals. This
@@ -479,6 +535,9 @@ layout is known as DEC layout, named after [[https://deskthority.net/wiki/Digita
 uses a different protocol to communicate with the Terminals.
 
 *** Acquisition
+:PROPERTIES:
+:CUSTOM_ID: acquisition
+:END:
 
 I was lucky enough to get into the [[https://deskthority.net/viewtopic.php?f=2&t=25763][largest vintage computer keyboard]] group-buy
 in history. [[https://deskthority.net/memberlist.php?mode=viewprofile&u=21126][Inoznez]], used his parent's farm to store the boards and slowly
@@ -517,6 +576,9 @@ cable yet. :)
 #+END_EXPORT
 
 *** Build and Features
+:PROPERTIES:
+:CUSTOM_ID: build-and-features
+:END:
 
 The case is made of ABS and will yellow over time; However, these boards are NOS,
 and these haven't been yellowed yet.
@@ -562,6 +624,9 @@ NMB branding anywhere on the case.
 #+END_EXPORT
 
 *** Restoration
+:PROPERTIES:
+:CUSTOM_ID: restoration
+:END:
 
 Since this is a NOS board, it didn't require any restoration. However, I need
 make a converter for it. Thanks to the genious of [[https://github.com/purdeaandrei][Purdea Andrei]] , TMK now
@@ -573,6 +638,7 @@ make a converter for it. Thanks to the genious of [[https://github.com/purdeaand
    :EXPORT_DATE: 2022-03-28
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/zbrojovka_brno_262_4/zbrojovka_brno_262_4.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: zbrojovka-brno-262-4
    :END:
 
 This board was manufactured by a Czechoslovakian company called [[http://www.zbrojovka-brno.cz/][Zbrojovka Brno]]
@@ -589,6 +655,9 @@ I have documented another [[/keyboards/zbrojovka_brno_262_5/][Zbrojokva board,]]
 #+END_EXPORT
 
 *** Acquisition
+:PROPERTIES:
+:CUSTOM_ID: acquisition
+:END:
 
 My good friend [[https://www.youtube.com/user/krikun998][krikun98]], helped me buy and ship a few Soviet-era boards along
 with this one. This board is in NOS condition, So I didn't open it up to take
@@ -611,8 +680,12 @@ restoration; however, I need to make a converter for modern systems.
    :EXPORT_DATE: 2022-03-28
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :cover /images/keyboards/nmb_8700/nmb_8756cdn.jpg :image /images/keyboards/nmb_8700/nmb_8756cdn_cover.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: nmb-rt-8700-series-keyboard
    :END:
 *** History
+:PROPERTIES:
+:CUSTOM_ID: history
+:END:
 
 RT-8700 is a series of full-sized keyboards manufactured by NMB in the mid-’90s.
 They came with the fifth generation Hi-Tek series 725 switches, which is the
@@ -647,6 +720,9 @@ others.
 #+END_EXPORT
 
 *** Acquisition
+:PROPERTIES:
+:CUSTOM_ID: acquisition
+:END:
 
 I was lucky enough to get into the [[https://deskthority.net/viewtopic.php?f=2&t=25763][largest vintage computer keyboard]] group-buy
 in history. [[https://deskthority.net/memberlist.php?mode=viewprofile&u=21126][Inoznez]] used his parent's farm to store the boards and slowly
@@ -667,6 +743,9 @@ There were many layouts, such as German, Swedish, Norwegian, etc and I got one
 from each. This board is the one with a Danish layout.
 
 *** Build and Features
+:PROPERTIES:
+:CUSTOM_ID: build-and-features
+:END:
 
 The case is probably made of thin ABS and it's very poorly made. The whole thing
 creaks a lot, even with a minor flex. The keycaps however, are made of thick PBT
@@ -691,6 +770,9 @@ one keyboard and build a custom 60% board using the PCB and Plates from the
 latest group buy.
 
 *** Restoration
+:PROPERTIES:
+:CUSTOM_ID: restoration
+:END:
 
 These boards didn't need any restoration, because they are practically new. I
 got an active PS/2 port to USB converter, and it worked with my computer.
@@ -701,6 +783,7 @@ got an active PS/2 port to USB converter, and it worked with my computer.
    :EXPORT_DATE: 2022-04-12
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/apple_m0110/apple_m0110_1.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: apple-m0110-keyboard
    :END:
 
    No descriptions yet
@@ -711,9 +794,13 @@ got an active PS/2 port to USB converter, and it worked with my computer.
    :EXPORT_DATE: 2022-04-14
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/northgate_omnikey_ultra/northgate_omnikey_ultra.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: northgate-omnikey-ultra
    :END:
 
 *** History
+:PROPERTIES:
+:CUSTOM_ID: history
+:END:
 
 Northgate Computer Systems was founded in 1987, and they used to sell
 personal computers. They sold their products through direct marketing
@@ -748,6 +835,9 @@ computers.
 #+END_EXPORT
 
 *** Build & Features
+:PROPERTIES:
+:CUSTOM_ID: build-features
+:END:
 
 This keyboard uses a hard plastic top, and that’s all the plastic you get
 on the board(except the switches and caps). It uses a steel switch-plate
@@ -804,6 +894,9 @@ layouts, swap modifier keys, and change protocols.
 #+END_EXPORT
 
 *** Restoration
+:PROPERTIES:
+:CUSTOM_ID: restoration
+:END:
 
 The keyboard wasn’t in a good state when I acquired it. It needed some cleaning and some retr0briting to bring it back to its original condition. I have greased the stabilizers with di-electric grease to reduce the rattle; However, the switches could use some cleaning. This keyboard is by far the most practical vintage keyboard I have ever owned, and I intend to keep using it in the coming years.
 
@@ -813,9 +906,13 @@ The keyboard wasn’t in a good state when I acquired it. It needed some cleanin
    :EXPORT_DATE: 2022-04-23
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/data_general_6312_k/data_general_6312_k.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: data-general-acer-6312-k
    :END:
 
 *** History
+:PROPERTIES:
+:CUSTOM_ID: history
+:END:
 
 This keyboard was made by Acer and it uses Acer’s patented
 switch-over-membrane design. Acer had produced various models in this
@@ -829,6 +926,9 @@ series, and this particular model is for Data general.
 #+END_EXPORT
 
 *** Build and Features
+:PROPERTIES:
+:CUSTOM_ID: build-and-features
+:END:
 
 I have acquired this New old stock keyboard from eBay for a very
 reasonable price. The keyboard isn’t too heavy despite its large footprint.
@@ -881,6 +981,9 @@ Upon removing the membrane, we could see the switches fitted to the switch plate
 #+END_EXPORT
 
 *** Verdict
+:PROPERTIES:
+:CUSTOM_ID: verdict
+:END:
 
 At the time of writing, this board is one the favourites in my collection.
 I love the travel of the switch, the case acoustics, quality keycaps and
@@ -894,9 +997,13 @@ those huge bezels.
    :EXPORT_DATE: 2022-07-23
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/leading_edge_dc_2014/leading_edge_dc_2014.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: leading-edge-dc-2014
    :END:
 
 *** History
+:PROPERTIES:
+:CUSTOM_ID: history
+:END:
 
 Leading Edge DC-2014 keyboard originally came with Leading Edge's Model D
 computer in the 80s.The computer was manufactured by Daewood, and hence the
@@ -911,6 +1018,9 @@ clone, and was the most successful product of the company.
 #+END_EXPORT
 
 *** Build and Features
+:PROPERTIES:
+:CUSTOM_ID: build-and-features
+:END:
 
 This one of the better deals I have ever gotten on eBay, The seller was trying
 to sell a bunch of vintage keyboards, and they let it go for $100. The keyboard
@@ -965,6 +1075,9 @@ to be in a good condition, so I probably won't wax-boil them.
 The layout is based on the IBM Model F XT layout with some minor changes.
 
 *** Conversion
+:PROPERTIES:
+:CUSTOM_ID: conversion
+:END:
 
 The keyboard uses XT protocol to communicate, So I have planned to make a
 converter for it. I haven't decided whether to make an internal converter or a
@@ -978,6 +1091,9 @@ box, I will edit this section once I get my pro-micro shipments from China.
 #+END_EXPORT
 
 *** Verdict
+:PROPERTIES:
+:CUSTOM_ID: verdict
+:END:
 
 This is an exceptional keyboard with amazing switches and it sounds amazing. The
 XT layout is my favorite layout and by far this is one of the favorite keyboard
@@ -987,11 +1103,15 @@ in my collection.
    :PROPERTIES:
    :EXPORT_FILE_NAME: cherryb_freyr
    :EXPORT_DATE: 2022-09-17
-   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/cherryb_freyr/freyr_space_cadet.jpg
+   :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/cherryb_freyr/freyr_gmk_serika_03.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: cherryb-freyr
    :END:
    
 *** Configuration
+:PROPERTIES:
+:CUSTOM_ID: configuration
+:END:
 
     -   Design by CherryB
     -   Black aluminium case
@@ -1007,6 +1127,33 @@ in my collection.
 </div>
 #+END_EXPORT
 
+#+BEGIN_EXPORT html
+<div class="post-image">
+  <img src="/images/keyboards/cherryb_freyr/freyr_gmk_serika_01.jpg" loading="lazy"/>
+  <span class="img-description"> Freyr with GMK Serika R2 </span>
+</div>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<div class="post-image">
+  <img src="/images/keyboards/cherryb_freyr/freyr_gmk_serika_02.jpg" loading="lazy"/>
+  <span class="img-description"> </span>
+</div>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<div class="post-image">
+  <img src="/images/keyboards/cherryb_freyr/freyr_gmk_space_cadet.jpg" loading="lazy"/>
+  <span class="img-description"> Freyr with GMK Space Cadet II </span>
+</div>
+#+END_EXPORT
+
+#+BEGIN_EXPORT html
+<div class="post-image">
+  <img src="/images/keyboards/cherryb_freyr/freyr_gmk_space_cadet_02.jpg" loading="lazy"/>
+</div>
+#+END_EXPORT
+
 
 ** Rama U-80A seq2 :custom:keyboards:mx:
    :PROPERTIES:
@@ -1014,9 +1161,13 @@ in my collection.
    :EXPORT_DATE: 2022-09-18
    :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :image /images/keyboards/rama_u80a/u80a_mt3_elvish_01.jpg
    :EXPORT_HUGO_DRAFT: false
+   :CUSTOM_ID: rama-u-80a-seq2
    :END:
 
 *** Configuration
+:PROPERTIES:
+:CUSTOM_ID: configuration
+:END:
 
     -   Design by Rama
     -   Soya(Beige-ish) aluminium case
