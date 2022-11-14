@@ -10,7 +10,7 @@ image = "/images/keyboards/northgate_omnikey_ultra/northgate_omnikey_ultra.jpg"
 ## History {#history}
 
 Northgate Computer Systems was founded in 1987, and they used to sell
-personal computers. They sold their products through direct marketing
+personal computers. They sold their products through direct marketing.
 However, their Omnikey keyboards were sold through dealers. Before the
 introduction of Omnikey series keyboards, Northgate badged keyboards from
 several companies such as Focus and Monterey, and some of the initial
@@ -38,7 +38,7 @@ computers.
 </div>
 
 
-## Build &amp; Features {#build-and-features}
+## Build &amp; Features {#build-features}
 
 This keyboard uses a hard plastic top, and that’s all the plastic you get
 on the board(except the switches and caps). It uses a steel switch-plate

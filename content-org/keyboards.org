@@ -803,7 +803,7 @@ got an active PS/2 port to USB converter, and it worked with my computer.
 :END:
 
 Northgate Computer Systems was founded in 1987, and they used to sell
-personal computers. They sold their products through direct marketing
+personal computers. They sold their products through direct marketing.
 However, their Omnikey keyboards were sold through dealers. Before the
 introduction of Omnikey series keyboards, Northgate badged keyboards from
 several companies such as Focus and Monterey, and some of the initial
@@ -1181,5 +1181,5 @@ in my collection.
   <img src="/images/keyboards/rama_u80a/u80a_mt3_godspeed_01.jpg" loading="lazy"/>
   <span class="img-description"> U-80a with MT3 GodSpeed set</span>
 </div>
-#+END_EXPORT
++END_EXPORT
 
