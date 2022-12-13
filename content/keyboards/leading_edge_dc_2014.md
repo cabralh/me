@@ -73,6 +73,8 @@ The keyboard uses XT protocol to communicate, So I have planned to make a
 converter for it. I haven't decided whether to make an internal converter or a
 box, I will edit this section once I get my pro-micro shipments from China.
 
+I have got a bunch of Type-C pro-micros from China.
+
 <div class="post-image">
   <img src="/images/keyboards/leading_edge_dc_2014/leading_edge_dc_2014_internal_xt_headers.jpg" loading="lazy"/>
   <span class="img-description"> Leading Edge DC-2014 XT headers </span>

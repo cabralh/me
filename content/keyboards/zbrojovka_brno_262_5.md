@@ -22,7 +22,7 @@ switches.
 </div>
 
 
-## Acquisition &amp; Restoration {#acquisition-and-restoration}
+## Acquisition &amp; Restoration {#acquisition-restoration}
 
 It had been up for sale for more than a year on [r/mechmarket](https://www.reddit.com/r/mechmarket/), and I was lucky
 enough to snag it for a very fair price.  It took exactly a month to reach

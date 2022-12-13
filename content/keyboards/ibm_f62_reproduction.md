@@ -28,7 +28,7 @@ Though it's a reproduction, it isn't an replica of the F 4704. It lacks a beeper
 stand, beeper volume knob, and stepped caps.
 
 
-## Acquisition &amp; Details {#acquisition-and-details}
+## Acquisition &amp; Details {#acquisition-details}
 
 Like most other IBM enthusiasts, I too entered into Ellipse's group buy. But I
 was too anxious to wait two years to get my hands on one, So I got this board

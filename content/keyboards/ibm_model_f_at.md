@@ -21,7 +21,7 @@ discontinuing them in 1987. Some sources say that the **AT** stands for **Advanc
 This model was a successor to the very famous and now weird XT layout. The IBM PS/2 (Personal System/2) was the successor to the IBM PC/AT, and with it came the venerable model M keyboard. The model M keyboard introduced the very layout that is being used worldwide even today.
 
 
-## Acquisition &amp; Restoration {#acquisition-and-restoration}
+## Acquisition &amp; Restoration {#acquisition-restoration}
 
 I have acquired this keyboard from eBay for a fair price. It was super dirty and was full of gunk. The barrel plate has rusty, and there were a bunch of dead spiders inside. The keycaps were quite filthy too.
 
