@@ -1,4 +1,4 @@
-baseURL = "https://rudra.dev/"
+baseURL = "https://henrycabral.me"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 
@@ -7,7 +7,7 @@ pygmentsStyle = "manni"
 
 paginate = 20
 
-title = "rudra kar"
+title = "henry cabral"
 theme = "flamingo"
 [markup.goldmark.renderer]
 unsafe = true
@@ -27,19 +27,6 @@ publishDir = "docs"
     name = "posts"
     url = "/posts/"
     weight = 10
-
-  [[menu.main]]
-    identifier = "projects"
-    name = "projects"
-    url = "/projects/"
-    weight = 11
-
-  [[menu.main]]
-    identifier = "keyboards"
-    name = "keyboards"
-    url = "/keyboards/"
-    weight = 12
-
 
   [[menu.secondary]]
     identifier = "about"
@@ -61,11 +48,11 @@ publishDir = "docs"
 
 
 [params]
-  author = "Rudra Kar"
-  description = "thoughts, obsessions and mostly rants"
-  sitename = "Rudra Kar blog"
-  github = "https://github.com/mrprofessor"
-  twitter = "@weary_beard"
+  author = "Henry Cabral"
+  description = "When "
+  sitename = "Henry Cabral's Blog"
+  github = "https://github.com/cabralh"
+  twitter = "@cabralhjr"
   favicon = "/images/favicon.ico"
   # resume = "https://docs.google.com/gview?url=https://github.com/mrprofessor/resume/raw/master/rudra_narayan_resume.pdf&embedded=true"
   resume = "https://github.com/mrprofessor/resume/blob/master/rudra_narayan_resume.pdf"
@@ -78,26 +65,6 @@ publishDir = "docs"
   description = "A git based note taking application. 📚"
   demoLink = "https://solitudenote.github.io/solitude/"
   sourceLink = "https://github.com/solitudenote/solitude"
-
-
-[[params.projects]]
-  name = "gitkeeper"
-  description = "A tiny microservice for client side GitHub authentication."
-  demoLink = "https://solitudenote-gitkeeper.glitch.me/"
-  sourceLink = "https://github.com/solitudenote/gitkeeper"
-
-
-[[params.projects]]
-  demoLink = ""
-  sourceLink = "https://github.com/mrprofessor/obliterate"
-  description = "A command line tool written in rust to replace rm."
-  name = "obliterate"
-
-[[params.projects]]
-  demoLink = "https://rudra.dev/"
-  sourceLink = "https://github.com/mrprofessor/rudra.dev"
-  description = "Personal blog built using Org-mode and Hugo."
-  name = "rudra.dev"
 
 [languages]
   [languages.en]

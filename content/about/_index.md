@@ -1,20 +1,24 @@
 +++
 title = "About"
-author = ["mrprofessor"]
+author = ["henrycabral"]
 layout = "single"
 draft = false
 +++
 
-I build large and scalable web applications at work. I dream of building
-tiny and useful applications at home.
+I write articles related but not exclusive to technical, professional, spiritual and medical. Non-exhaustive list of topics include:
 
-I can probably free up some hours in a week for software consulting if I
-like your idea. You can even hire me full-time if you are shipping
-applications with a
-[Free Software
-Foundation](https://www.gnu.org/licenses/license-list.html) license.
+* Product Management
+* Personal Development
+* Spirituality
+* Biomechanics
+* Active Lifestyle & Wellness
 
-If you need any help regarding any of my articles do drop a comment
-instead sending me e-mails.
+I also consult part-time as a Content/Technical Writer & Product Engineer. Currently open to more contracts depending on project scope/timeline.
 
-Thanks for showing interest. Go away now. Bye!
+Best ways to reach me:
+
+* [Bio.link](https://bio.link/henrycabral)
+* [Twitter](https://twitter.com/cabralhjr)
+* [Email](mailto:henry@enableu.ai)
+
+This will also serve as a live workspace for projects. Looking forward to learning and growing alongside you all!
