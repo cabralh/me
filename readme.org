@@ -1,5 +1,5 @@
 
-* Rudra.dev
+* henrycabral.me
 
 - Personal blog built with emacs [[https://orgmode.org/][org-mode]], [[https://gohugo.io/][Hugo]] and [[https://ox-hugo.scripter.co/][ox-hugo]].
 - Original org files can be found at `content-org` folder and the generated md files are in `content`.
