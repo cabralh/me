@@ -1,5 +1,5 @@
 
-* henrycabral.me
+* henrycabral.me personal blog/portfolio
 
 - Personal blog built with emacs [[https://orgmode.org/][org-mode]], [[https://gohugo.io/][Hugo]] and [[https://ox-hugo.scripter.co/][ox-hugo]].
 - Original org files can be found at `content-org` folder and the generated md files are in `content`.
@@ -16,3 +16,4 @@
 - docs/ :- Static files to host from github
 - themes/ :- Flamingo theme
 - static/ :- Pictures, icons, thumbnails etc
+
