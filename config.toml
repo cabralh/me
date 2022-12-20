@@ -28,6 +28,18 @@ publishDir = "docs"
     url = "/posts/"
     weight = 10
 
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "stills"
+    name = "stills"
+    url = "/stills/"
+    weight = 10
+
   [[menu.secondary]]
     identifier = "about"
     name = "about"
@@ -37,13 +49,13 @@ publishDir = "docs"
   [[menu.secondary]]
     identifier = "resume"
     name = "resume"
-    url = "https://github.com/mrprofessor/resume/blob/master/rudra_kar_resume.pdf/"
+    url = "https://github.com/cabralh/resume/blob/main/HJC-Resume.docx.pdf"
     weight = 11
 
   [[menu.secondary]]
-    identifier = "logs"
-    name = "logs"
-    url = "/logs/"
+    identifier = "reviews"
+    name = "reviews"
+    url = "/reviews/"
     weight = 12
 
 
@@ -54,8 +66,8 @@ publishDir = "docs"
   github = "https://github.com/cabralh"
   twitter = "@cabralhjr"
   favicon = "/images/favicon.ico"
-  # resume = "https://docs.google.com/gview?url=https://github.com/mrprofessor/resume/raw/master/rudra_narayan_resume.pdf&embedded=true"
-  resume = "https://github.com/mrprofessor/resume/blob/master/rudra_narayan_resume.pdf"
+  # resume = "https://docs.google.com/gview?url=https://github.com/cabralh/resume/blob/main/HJC-Resume.docx.pdf&embedded=true"
+  resume = "https://github.com/cabralh/resume/blob/main/HJC-Resume.docx.pdf"
   mainSections = "posts"
 
 

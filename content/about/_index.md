@@ -13,7 +13,9 @@ I write articles related but not exclusive to technical, professional, spiritual
 * Biomechanics
 * Active Lifestyle & Wellness
 
-I also consult part-time as a Content/Technical Writer & Product Engineer. Currently open to more contracts depending on project scope/timeline.
+I also plan to document my projects in real-time along with still shots of my own liking coupled with book/journal article reviews of the various subjects listed above.
+
+Currently I work as a development engineer in the healthcare space but consult part-time as a Content/Technical Writer & Product Engineer. Currently open to more contracts depending on project scope/timeline.
 
 Best ways to reach me:
 

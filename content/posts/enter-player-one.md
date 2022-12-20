@@ -1,7 +1,7 @@
 +++
 title = "Enter Player One"
 author = ["henrycabral"]
-date = 2021-05-15
+date = 2021-01-15
 tags = ["thoughts"]
 draft = false
 +++
