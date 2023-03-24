@@ -5,12 +5,13 @@ layout = "single"
 draft = false
 +++
 
-I write articles related but not exclusive to technical, professional, spiritual and medical. Non-exhaustive list of topics include:
+A biomedical engineer by training, I discuss topics related but not exclusive to technical, psychological, professional, spiritual and medical. Non-exhaustive list of topics include:
 
+* Biomechanics
+* Sport Psychology
 * Product Management
 * Personal Development
 * Spirituality
-* Biomechanics
 * Active Lifestyle & Wellness
 
 I also plan to document my projects in real-time along with still shots of my own liking coupled with book/journal article reviews of the various subjects listed above.
@@ -23,4 +24,4 @@ Best ways to reach me:
 * [Twitter](https://twitter.com/cabralhjr)
 * [Email](mailto:henry@enableu.ai)
 
-This will also serve as a live workspace for projects. Looking forward to learning and growing alongside you all!
+Looking forward to learning and growing alongside you all!

@@ -55,7 +55,7 @@ publishDir = "docs"
 
 [params]
   author = "Henry Cabral"
-  description = "When "
+  description = "thoughts in mind"
   sitename = "Henry Cabral's Blog"
   github = "https://github.com/cabralh"
   twitter = "@cabralhjr"

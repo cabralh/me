@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 Henry Cabral
+Copyright (c) 2023 Henry Cabral
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
